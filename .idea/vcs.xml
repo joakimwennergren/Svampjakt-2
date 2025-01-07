@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/Catch2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/VulkanMemoryAllocator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/asio.cmake" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/box2d" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/bullet3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/curl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/eventpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/flatbuffers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/flecs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/glm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/ios-cmake" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/myers-diff" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/openssl-cmake" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/sol2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/spdlog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/tinygltf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/tinyobjloader" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/tracy" vcs="Git" />
+  </component>
+</project>
