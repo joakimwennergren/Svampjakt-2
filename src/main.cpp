@@ -11,8 +11,8 @@ struct Entropia final : Entropy::EntryPoints::Application {
     void OnInit() override {
         const ServiceLocator *sl = ServiceLocator::GetInstance();
         const auto lua = sl->getService<ILua>();
-        lua->SetBasePath("C:\\Temp\\Entropia");
-        lua->Get()->script_file("..\\scripts\\main.lua");
+        lua->SetBasePath("../");
+        lua->Get()->script_file("../scripts/main.lua");
     }
 
     /**

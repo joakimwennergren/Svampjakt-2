@@ -18,18 +18,18 @@ project(Entropia)
 file(GLOB_RECURSE SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 # Add Entropy
-add_subdirectory("C:\\Temp\\Entropy-Engine" Entropy)
+add_subdirectory("/Users/joakimwennergren/Entropy-Engine" Entropy)
 
 # Create the library
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Compiler flags
-if(MSVC)
+if (MSVC)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /std:c++17 /utf-8")
-endif(MSVC)
+endif (MSVC)
 
 include_directories(${PROJECT_NAME} PUBLIC
-    src/
+        src/
 )
 
 # Compiler flags
@@ -37,5 +37,5 @@ include_directories(${PROJECT_NAME} PUBLIC
 
 # Link common dependencies
 target_link_libraries(${PROJECT_NAME}
-    Entropy
+        Entropy
 )
