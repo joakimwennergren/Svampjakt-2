@@ -16,7 +16,6 @@
     <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/glm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/ios-cmake" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/myers-diff" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/openssl-cmake" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/sol2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/spdlog" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Entropy-Engine/external/tinygltf" vcs="Git" />
