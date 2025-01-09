@@ -54,7 +54,7 @@ SetColor(quad, 1.0, 0.0, 0.0, 1.0)
 function OnRender(deltaTime, width, height)
 
     Translate(quad, width/2.0, height / 2.0, 1.0)
-    Scale(quad, width/2.0, 100, 0.0)
+    Scale(quad, 300, 300, 0.0)
     --Scale(background2, width, height / 2.0, 0)
     --Translate(background2, width * 3.0, height / 2.0, 2)
 
