@@ -7,7 +7,7 @@ local Player = require("scripts/player/player")
 
 local quad = Primitives.CreateQuad()
 Translate(quad, 0.0, 0.0, 1.0)
-SetColor(quad, 1.0, 0.0, 0.0, 1.0)
+SetColor(quad, 120 / 255, 151 / 255, 158 / 255, 1.0)
 
 --local BASE_DIR = "/Users/joakimwennergren/Entropia/"
 
@@ -50,11 +50,15 @@ SetColor(quad, 1.0, 0.0, 0.0, 1.0)
 
 --SetCameraZoom(-0.5)
 --SetCameraPosition(-1000, 0)
-
+local angle = 0.0
+local x = 0.0
+local y = 0.0
 function OnRender(deltaTime, width, height)
-
-    Translate(quad, width/2.0, height / 2.0, 1.0)
-    Scale(quad, 300, 300, 0.0)
+    angle = angle + 0.01 * deltaTime
+    x = (width / 2.0) + 10 * math.cos(angle)
+    y = (height / 2.0) + 10 * math.sin(angle)
+    Translate(quad, x, y, 1.0)
+    Scale(quad, 200, 200, 0.0)
     --Scale(background2, width, height / 2.0, 0)
     --Translate(background2, width * 3.0, height / 2.0, 2)
 
@@ -74,5 +78,5 @@ function OnRender(deltaTime, width, height)
 end
 
 --function OnInput(key)
-    --pressedKey = key
+--pressedKey = key
 --ends

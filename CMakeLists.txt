@@ -18,7 +18,7 @@ project(Entropia)
 file(GLOB_RECURSE SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 # Add Entropy
-add_subdirectory("C:\\Temp\\Entropy-Engine" Entropy)
+add_subdirectory("/Users/joakimwennergren/Entropy-Engine" Entropy)
 
 # Create the library
 add_executable(${PROJECT_NAME} ${SOURCES})
