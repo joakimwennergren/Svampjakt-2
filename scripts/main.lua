@@ -9,6 +9,8 @@ local quad = Primitives.CreateQuad()
 Translate(quad, 0.0, 0.0, 1.0)
 SetColor(quad, 120 / 255, 151 / 255, 158 / 255, 1.0)
 
+
+
 --local BASE_DIR = "/Users/joakimwennergren/Entropia/"
 
 --local pressedKey = -1
@@ -55,10 +57,10 @@ local x = 0.0
 local y = 0.0
 function OnRender(deltaTime, width, height)
     angle = angle + 0.01 * deltaTime
-    x = (width / 2.0) + 10 * math.cos(angle)
-    y = (height / 2.0) + 10 * math.sin(angle)
+    x = (width / 2.0)  --+ 20 * math.cos(angle)
+    y = (height / 2.0) --+ 20 * math.sin(angle)
     Translate(quad, x, y, 1.0)
-    Scale(quad, 200, 200, 0.0)
+    Scale(quad, 300, 300, 0.0)
     --Scale(background2, width, height / 2.0, 0)
     --Translate(background2, width * 3.0, height / 2.0, 2)
 
