@@ -23,7 +23,7 @@ struct Entropia final : Entropy::EntryPoints::Application {
      * @param screen_height
      * @param deltaTime The time elapsed since the last frame, used for updating the rendering accordingly.
      */
-    void OnRender(float screen_width, float screen_height, float deltaTime) override {
+    void OnRender(int screen_width, int screen_height, float deltaTime) override {
     }
 };
 
