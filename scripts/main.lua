@@ -7,33 +7,7 @@ local Player = require("scripts/player/player")
 
 local banana = Primitives.CreateSprite("/Users/joakimwennergren/Entropia/resources/sprites/rb_30161.png")
 
-local bg = Primitives.CreateRoundedRectangle(0.0, 0.0, 1.0, 3000, 3000, Vec4.new())
-
-
-local quad = Primitives.CreateCircle(0.0, 0.0, 1.0, 30)
-SetColor(quad, 1.0, 1.0, 1.0, 1.0)
-
-local circles = {}
-
-for i = 1, 1000 do
-    local z = math.random(10, 104)
-    local s = Primitives.CreateCircle(500, 300, z, 30)
-    SetColor(s, math.random(1, 254) / 255, math.random(1, 254) / 255, math.random(1, 254) / 255, 1.0)
-    local scale = math.random(10, 40)
-    Scale(s, scale, scale, 0.0)
-    local circle = {
-        x = 0.0,
-        y = 0.0,
-        speed = math.random(1, 50),
-        sprite = s,
-        angle = 0.0,
-        radius = math.random(80, 250),
-        zIndex = z
-    }
-    table.insert(circles, circle)
-end
-
-
+local bg = Primitives.CreateRoundedRectangle(0.0, 0.0, 1.0, 0, 0, Vec4.new())
 
 --local BASE_DIR = "/Users/joakimwennergren/Entropia/"
 
@@ -77,26 +51,12 @@ end
 --SetCameraZoom(-0.5)
 --SetCameraPosition(-1000, 0)
 
-local switch = 0.0
 
 function OnRender(deltaTime, width, height)
-    Translate(quad, (width / 2.0), (height / 2.0), 1.0)
-    Scale(quad, 800, 800, 0.0)
-    Translate(banana, (width / 2.0), (height / 2.0), 3.0)
-    Scale(banana, 64, 64, 0.0)
+    SetColor(bg, 1.0, 0.0, 0.0, 1.0)
+    Scale(bg, 300, 300, 0.0)
+    Translate(bg, width / 2.0, height / 2.0, 1.0)
 
-    switch = switch + 1
-    if switch > 100 then
-        SetColor(bg, math.random(1, 254) / 255, math.random(1, 254) / 255, math.random(1, 254) / 255, 1.0)
-        switch = 0
-    end
-
-    for i = 1, 1000 do
-        circles[i].angle = circles[i].angle + circles[i].speed * 0.001
-        circles[i].x = (width / 2.0) + circles[i].radius * math.cos(circles[i].angle)
-        circles[i].y = (height / 2.0) + circles[i].radius * math.sin(circles[i].angle)
-        Translate(circles[i].sprite, circles[i].x, circles[i].y, circles[i].zIndex)
-    end
     --Scale(background2, width, height / 2.0, 0)
     --Translate(background2, width * 3.0, height / 2.0, 2)
 
