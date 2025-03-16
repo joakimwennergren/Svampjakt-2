@@ -6,7 +6,6 @@ cmake-build-mingw
 cmake-build-windows-msvc-debug
 cmake-build-debug
 cmake-build-debug-ubuntu
-cmake-debug-ios
 include/config.hpp
 docs
 **/.DS_Store.DS_Store
