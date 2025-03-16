@@ -1,0 +1,1483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0686F15A851298A740815862 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24C62088AC6042018669E2C8 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A72345F1D617465EAF7DB1E5 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		2286C32A1A9881457B33F481 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3BDA990E59FB4D528413E313 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A39826E1699F2C7A26D637C1 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		5DB8807C97706BA5A3B4FF3A /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 14511BD8247C4603AE2E3B91 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				FDE273C9F98349239985B481 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		A32A1A2A9C1E0A139C97B3E3 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E48F66D9883844B49F64864A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E78EDF5DC1D8317B0D422B82 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				35CD1AAF0A4046A6BFB7CA4E /* PBXTargetDependency */,
+				0E30B765F41D419D9E0DBA72 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03F485D874994D20A2607032 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/locale.h */ = {isa = PBXBuildFile; fileRef = FD2FAAE2B6264C85A1EA9D28 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/locale.h */; };
+		04FCC39FEBB64CA1B3D2EDB1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/base_sink-inl.h */ = {isa = PBXBuildFile; fileRef = F340FD72627C4EE791E898E1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/base_sink-inl.h */; };
+		06B5562C406D4C59AD3A2D94 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/os.h */ = {isa = PBXBuildFile; fileRef = 01D67D0F0A8A4894A8111116 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/os.h */; };
+		08FBC8BFF54F40F08CBAF47D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg.h */ = {isa = PBXBuildFile; fileRef = 10B9983667974C4B82EFB93E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg.h */; };
+		09201D7013334EAB8678E799 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/pattern_formatter.h */ = {isa = PBXBuildFile; fileRef = 8097AC882B054E80AD4C0DF3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/pattern_formatter.h */; };
+		094850BAB0904807849B0F34 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/backtracer-inl.h */ = {isa = PBXBuildFile; fileRef = FC039BBDCB674128B0A9CA97 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/backtracer-inl.h */; };
+		0A461E900C2F45DF85D98384 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/cfg.cpp */ = {isa = PBXBuildFile; fileRef = 223E499D33A24C129F1EC32A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/cfg.cpp */; };
+		0EE34A4CF6A1489EAF2B889E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async.h */ = {isa = PBXBuildFile; fileRef = 272CFDE26CAB40238FB95244 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async.h */; };
+		0EFDC9F6654D4B5CA51548B2 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/color.h */ = {isa = PBXBuildFile; fileRef = 424DD8E7FB30481CBBBC80EA /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/color.h */; };
+		0F866F77DC13474093AC2759 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/chrono.h */ = {isa = PBXBuildFile; fileRef = 2B38ECEC5DB941B2ACBA62CB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/chrono.h */; };
+		1033FB13F6984382BDC537F1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/systemd_sink.h */ = {isa = PBXBuildFile; fileRef = A0E5697549004C999E495D24 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/systemd_sink.h */; };
+		10422D6C9CBF4B02BF0706FC /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/ranges.h */ = {isa = PBXBuildFile; fileRef = D75C4A4A6A8B4BEBBAB80BF0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/ranges.h */; };
+		148E39C99608474E96CFC456 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/tweakme.h */ = {isa = PBXBuildFile; fileRef = 5CDFDB4E518046DEB898C786 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/tweakme.h */; };
+		1806E3865AFA4A2499C27897 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ansicolor_sink.h */ = {isa = PBXBuildFile; fileRef = 2327F733AAF342C2ABB92A56 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ansicolor_sink.h */; };
+		19A5F5D40B3845BF9F85F789 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/formatter.h */ = {isa = PBXBuildFile; fileRef = BE067293074B422296726EF1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/formatter.h */; };
+		1F2787FEB4824ACD8113F567 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/spdlog-inl.h */ = {isa = PBXBuildFile; fileRef = 4E99F0D98EF840EFA605B04A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/spdlog-inl.h */; };
+		20D1AB6DCE2C481DAD88CBEE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/periodic_worker-inl.h */ = {isa = PBXBuildFile; fileRef = 4814FE93DD8742899E803962 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/periodic_worker-inl.h */; };
+		249FB8D19E7147398EFE0802 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/file_helper-inl.h */ = {isa = PBXBuildFile; fileRef = A1C4E1FF20A149EDBD71F576 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/file_helper-inl.h */; };
+		28C3C24391D94C06A3C758DB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/udp_client-windows.h */ = {isa = PBXBuildFile; fileRef = 07E0C0547C9644E89BB74F29 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/udp_client-windows.h */; };
+		29D569C91FB842F09B62CAF7 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/mdc.h */ = {isa = PBXBuildFile; fileRef = C7C77E1725424FAC87AA57E5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/mdc.h */; };
+		2F8848681FA747B1A386FCE6 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/file_sinks.cpp */ = {isa = PBXBuildFile; fileRef = 11F69013338D422E8ED518A3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/file_sinks.cpp */; };
+		301D4EBBC3644A948D7FC492 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/tcp_client.h */ = {isa = PBXBuildFile; fileRef = 5550FC88F16344F68B215E3D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/tcp_client.h */; };
+		3161179EB6124B49A0813870 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/compile.h */ = {isa = PBXBuildFile; fileRef = BD2F08C4122F4D3E86C00113 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/compile.h */; };
+		3315420F9F074646A87A299D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/ranges.h */ = {isa = PBXBuildFile; fileRef = 38D5C755179649549F63FB5D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/ranges.h */; };
+		36E4584AC3F2417287AD92FE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/windows_include.h */ = {isa = PBXBuildFile; fileRef = DB4838E7FE474059A145B39C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/windows_include.h */; };
+		370895782F71481A96244B0D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/thread_pool-inl.h */ = {isa = PBXBuildFile; fileRef = 1AF619E07751445BAF0FDAEF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/thread_pool-inl.h */; };
+		3A31E2200D0043CAA379D957 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/tcp_sink.h */ = {isa = PBXBuildFile; fileRef = CE45EFD23A104653829C6806 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/tcp_sink.h */; };
+		3C04BBAC86A248BCA7BF9681 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/stdout_sinks.cpp */ = {isa = PBXBuildFile; fileRef = 8EAA28D37F084265B6BBA7AB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/stdout_sinks.cpp */; };
+		3CCF41D6601E425A85E21FB5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_sinks-inl.h */ = {isa = PBXBuildFile; fileRef = 826633F17DF548D696A81108 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_sinks-inl.h */; };
+		3CDEEC8692BC412991619C04 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/fmt.h */ = {isa = PBXBuildFile; fileRef = A64098B2E30B45A982A8AD5C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/fmt.h */; };
+		3D3E809AFAF64C7B9A37C92D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/wincolor_sink.h */ = {isa = PBXBuildFile; fileRef = CC829F74D65B40A09F72A9A0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/wincolor_sink.h */; };
+		3EFA7C8B7733492F800C4C4F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/hourly_file_sink.h */ = {isa = PBXBuildFile; fileRef = EFF5F3762EAF461C8E1294EE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/hourly_file_sink.h */; };
+		3F3B897B037D4D48A31C9767 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/android_sink.h */ = {isa = PBXBuildFile; fileRef = 199EBA05368E4668A5CCA13B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/android_sink.h */; };
+		40D15A191FC74A38905D43E1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/thread_pool.h */ = {isa = PBXBuildFile; fileRef = FD987348BC8F47A9B093CB61 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/thread_pool.h */; };
+		4711A4B607D5490EB7360481 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/sink.h */ = {isa = PBXBuildFile; fileRef = 1141969D635E4A0AA4DBFEF0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/sink.h */; };
+		48A1D0354376435EBB901CA0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/ostr.h */ = {isa = PBXBuildFile; fileRef = 9B126896FF1244CC94BFBB5C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/ostr.h */; };
+		4DAD54806D9C4A129BCF405F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/periodic_worker.h */ = {isa = PBXBuildFile; fileRef = 331A7D7FEF994F928D05632B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/periodic_worker.h */; };
+		5049766E68C94982A4635084 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/daily_file_sink.h */ = {isa = PBXBuildFile; fileRef = A797DDA1D4874B919059D557 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/daily_file_sink.h */; };
+		54AA73E21ACF4FE88680A6B9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_sinks.h */ = {isa = PBXBuildFile; fileRef = 5446A80EC6024DF5A78908AE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_sinks.h */; };
+		55ABB2DDB91743E3BB3AB811 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/udp_client.h */ = {isa = PBXBuildFile; fileRef = 382DCBDCE80B411FBB724F3E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/udp_client.h */; };
+		57F44CEBB8B347D39321D4C9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bin_to_hex.h */ = {isa = PBXBuildFile; fileRef = 8A31962B478646228D6FA41C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bin_to_hex.h */; };
+		5894833D7A6D4F989DC967DB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/wincolor_sink-inl.h */ = {isa = PBXBuildFile; fileRef = 9DBC833E51D149E399F70A67 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/wincolor_sink-inl.h */; };
+		5A047DEEFFC340908697F583 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/sink-inl.h */ = {isa = PBXBuildFile; fileRef = 569B175B9AA148EA99AC5109 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/sink-inl.h */; };
+		5E21035BA1274FC083E0C444 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/basic_file_sink.h */ = {isa = PBXBuildFile; fileRef = 2440656A93B449E4B1475AE3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/basic_file_sink.h */; };
+		5E3F1D9B440E407E9209B9F9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FAC321616F964631AE66AE39 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/CMakeLists.txt */; };
+		635507A541FE4D23A2413512 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/backtracer.h */ = {isa = PBXBuildFile; fileRef = F2451CC5DBC9494681E2D92A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/backtracer.h */; };
+		6359DA2BBC634A1BA8D8870C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/win_eventlog_sink.h */ = {isa = PBXBuildFile; fileRef = 1ED7FDF5875E496FB0F72E46 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/win_eventlog_sink.h */; };
+		685735DAC87440B09EF84BD1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/version.h */ = {isa = PBXBuildFile; fileRef = 286DFCDF6B8C4CF0937ADB75 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/version.h */; };
+		6C2E00E3D141487D8AB8C14F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg-inl.h */ = {isa = PBXBuildFile; fileRef = 5E00179C5A574A2087D169CF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg-inl.h */; };
+		718F879E216943B88B26008C /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/CMakeFiles/spdlog.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = C9998B5A5D1F491DBB9BC9A5 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/CMakeFiles/spdlog.dir/Info.plist */; };
+		73934C2079604417AA91D5E9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/base.h */ = {isa = PBXBuildFile; fileRef = 4BC1B2F62A6C471380D7E646 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/base.h */; };
+		74A403A74D8845DDAA708824 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/printf.h */ = {isa = PBXBuildFile; fileRef = 0E8603312CEA4AC49AD81CFD /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/printf.h */; };
+		74DDC152EAA04644BFA4B96E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/udp_sink.h */ = {isa = PBXBuildFile; fileRef = 78ACA41C608F45B98078D482 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/udp_sink.h */; };
+		78BDB2BDB74949618940B507 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/syslog_sink.h */ = {isa = PBXBuildFile; fileRef = 8996F74E21E6483DB262BE4C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/syslog_sink.h */; };
+		78F39239E28945F3B285DB1B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/fmt_helper.h */ = {isa = PBXBuildFile; fileRef = 8F366DAE7BB94B589557F433 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/fmt_helper.h */; };
+		7C058BEB60CB4281828113B2 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/null_sink.h */ = {isa = PBXBuildFile; fileRef = 30EE677E6F8C4364A4BC2A2C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/null_sink.h */; };
+		7DCD2CD75F60459F84B44E85 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/callback_sink.h */ = {isa = PBXBuildFile; fileRef = 6468C8EAB20E4CE2B9AA185A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/callback_sink.h */; };
+		7E61545237604116851565D9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/spdlog.cpp */ = {isa = PBXBuildFile; fileRef = 848672FD59A74162B90E491C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/spdlog.cpp */; };
+		7F4C3FFF40CA4C87B1EC0B89 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h */ = {isa = PBXBuildFile; fileRef = 91258AE8C39E488B9C3B04E4 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h */; };
+		82268D1C5C5140FFA598DB08 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/spdlog.h */ = {isa = PBXBuildFile; fileRef = 529E797E0BD7416089CBCF9E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/spdlog.h */; };
+		823C2DFE1FEA40F9AD0DC913 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/mpmc_blocking_q.h */ = {isa = PBXBuildFile; fileRef = 65ABBC92E0B946589DE0326D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/mpmc_blocking_q.h */; };
+		829851E8295F4498B99280BF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/null_mutex.h */ = {isa = PBXBuildFile; fileRef = B6D6997461264695BE0ECBE8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/null_mutex.h */; };
+		8299C1A280064F39B6E116FD /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/qt_sinks.h */ = {isa = PBXBuildFile; fileRef = E100A6C04ECA443EB2781A8E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/qt_sinks.h */; };
+		82E86CE7D88E4B1191ACD61E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async_logger.h */ = {isa = PBXBuildFile; fileRef = A9B136F1150B44D5AAB008DF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async_logger.h */; };
+		8BB30859539047058950ACC2 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/pattern_formatter-inl.h */ = {isa = PBXBuildFile; fileRef = 2DAB1E6E03744CA5982F773C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/pattern_formatter-inl.h */; };
+		8C171A0319F4466C922DE7E9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/registry.h */ = {isa = PBXBuildFile; fileRef = 8D66C1A17DEC4CAC99507CC9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/registry.h */; };
+		90A4FE40667248F8BAAFA64A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/chrono.h */ = {isa = PBXBuildFile; fileRef = EF26B6BC456241639B8FC3D2 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/chrono.h */; };
+		90C971F70ABD4A3AB0D9E21D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/xchar.h */ = {isa = PBXBuildFile; fileRef = B2BCA212687D4B23AE86AD3B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/xchar.h */; };
+		91B9D220104D4972AC3E97EF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h */ = {isa = PBXBuildFile; fileRef = BB4644B55E9E445AA490D5D5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h */; };
+		922ACD0B808D4E2C9F967DBD /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/std.h */ = {isa = PBXBuildFile; fileRef = E43F63A49F694AE59A016FB8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/std.h */; };
+		93D1468F07FB432E8427AA8D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/msvc_sink.h */ = {isa = PBXBuildFile; fileRef = C98E8688A79342248743CEA1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/msvc_sink.h */; };
+		9726FED717794E64893E4AC2 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/base_sink.h */ = {isa = PBXBuildFile; fileRef = BEC9CBE9771642CBAD66F1CD /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/base_sink.h */; };
+		9A3B6975E2C74264BB15B747 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/basic_file_sink-inl.h */ = {isa = PBXBuildFile; fileRef = DC1661DFF7F14528A6688F91 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/basic_file_sink-inl.h */; };
+		9C4C61DA3A8345D997200CF2 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/file_helper.h */ = {isa = PBXBuildFile; fileRef = 9CB42934EFFB41A1BC096965 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/file_helper.h */; };
+		9C9651D7A3DB40A5B1816682 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/common.h */ = {isa = PBXBuildFile; fileRef = 9ADCEB4F406144E4B379469A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/common.h */; };
+		A4DADC2894B649D88CDCEAA3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/compile.h */ = {isa = PBXBuildFile; fileRef = B9F47E18306D4B5EB8B374D0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/compile.h */; };
+		A510F31F1A8D4D3AB1D0949D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg_buffer.h */ = {isa = PBXBuildFile; fileRef = 757A7C32AEE14830976D025B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg_buffer.h */; };
+		A7202F3A195B4FDB90E74D68 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/bundled_fmtlib_format.cpp */ = {isa = PBXBuildFile; fileRef = CFAD00AC24364702A029E6EC /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/bundled_fmtlib_format.cpp */; };
+		AA306D749D7345C78CCF5415 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/logger-inl.h */ = {isa = PBXBuildFile; fileRef = 9F0653C210A9417CBAB19F07 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/logger-inl.h */; };
+		AA64BDE6810E4857BE85B17A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/os-inl.h */ = {isa = PBXBuildFile; fileRef = 499BB279B7FD42B8B0279F63 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/os-inl.h */; };
+		ACBEC962C35649349CA44A9F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/rotating_file_sink.h */ = {isa = PBXBuildFile; fileRef = CEFC74DE5B8D4CAEB8A81A7F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/rotating_file_sink.h */; };
+		AE67DB8B70004AE4B54491B0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async_logger-inl.h */ = {isa = PBXBuildFile; fileRef = 3129AE982BC24AE99466977A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async_logger-inl.h */; };
+		B082805E74814E8D969A66A1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/common-inl.h */ = {isa = PBXBuildFile; fileRef = 636DF723C1544ED583AD362F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/common-inl.h */; };
+		B83406952DFC49ACB68B80BB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/core.h */ = {isa = PBXBuildFile; fileRef = AF00264E996D4ADA87850135 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/core.h */; };
+		B8F128D4AEB4453D91D3B14C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/console_globals.h */ = {isa = PBXBuildFile; fileRef = 8232134D4EEA47A581B80D90 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/console_globals.h */; };
+		BE88FB74CB70416D89922BE5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/stopwatch.h */ = {isa = PBXBuildFile; fileRef = 41FF77285A0343A6AF975979 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/stopwatch.h */; };
+		BEFFF7B1990441C394864865 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/logger.h */ = {isa = PBXBuildFile; fileRef = A267686A01BE41C7825EC665 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/logger.h */; };
+		C0997FD12B4146C8A9F49FB4 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/std.h */ = {isa = PBXBuildFile; fileRef = 64614840D2B642AD8FD0AFBF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/std.h */; };
+		C09B7218B1524A259F4300DC /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/args.h */ = {isa = PBXBuildFile; fileRef = EBE8641A458D4CC7AC967689 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/args.h */; };
+		C2816B7F4F1446AE9BF64015 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/color_sinks.cpp */ = {isa = PBXBuildFile; fileRef = A1D9E674576B474DB57FDDAA /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/color_sinks.cpp */; };
+		C65A30AECE3A4928958D3570 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/synchronous_factory.h */ = {isa = PBXBuildFile; fileRef = ECA30FFA90C24F6198C22DA5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/synchronous_factory.h */; };
+		C9622EDEE697463DB20DB100 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/xchar.h */ = {isa = PBXBuildFile; fileRef = 0BF3EF3771A84313AB6D557D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/xchar.h */; };
+		CF1E90303BB4428F8829ED7D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_color_sinks.h */ = {isa = PBXBuildFile; fileRef = C8279CE3013940578D61CE56 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_color_sinks.h */; };
+		CF5842A72A6E4AA49ECD83C8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/format-inl.h */ = {isa = PBXBuildFile; fileRef = 23F9380BE0FC42479CA2CF07 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/format-inl.h */; };
+		D0129EDE14CD46E9B9790EF6 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg_buffer-inl.h */ = {isa = PBXBuildFile; fileRef = 13ACEE76080A4595882AE27E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg_buffer-inl.h */; };
+		D34CD546AE69471A8639EE3E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/mongo_sink.h */ = {isa = PBXBuildFile; fileRef = 73E95479D5F24014893DA0FB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/mongo_sink.h */; };
+		D3670997B28441478012AF9E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/registry-inl.h */ = {isa = PBXBuildFile; fileRef = 51EEDDEDBB5149049329AFF1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/registry-inl.h */; };
+		D44266CEC5934B2A88407C01 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ringbuffer_sink.h */ = {isa = PBXBuildFile; fileRef = B587F49048B24934BB8CF374 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ringbuffer_sink.h */; };
+		D618C858CAC447518E84A549 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/async.cpp */ = {isa = PBXBuildFile; fileRef = EDCA6A2A6B734408B1F832B0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/async.cpp */; };
+		D839858CAFC849B0A681698A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ostream_sink.h */ = {isa = PBXBuildFile; fileRef = 5FE7B6046ED94E3D9A61F201 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ostream_sink.h */; };
+		DBDFF21975BE467E9A69F50F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/dup_filter_sink.h */ = {isa = PBXBuildFile; fileRef = A1A84DB6F6D24313A0CE1044 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/dup_filter_sink.h */; };
+		DF3FB5B7A62C441786EE1DFE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/ostream.h */ = {isa = PBXBuildFile; fileRef = 2DF3A853FCAD4F828A36DE6B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/ostream.h */; };
+		E49B8B50B12841F7951ABFA4 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h */ = {isa = PBXBuildFile; fileRef = 53E41FECEFC248179BDC61FE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h */; };
+		EDE82E75DCF34D2CB51B67EF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/dist_sink.h */ = {isa = PBXBuildFile; fileRef = 7CC0C878ADFB4AFDBDE058D1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/dist_sink.h */; };
+		EE07D9D8E5AF498BAD43A327 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/format.h */ = {isa = PBXBuildFile; fileRef = 557A52CF3CFC445CA0AF86C8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/format.h */; };
+		EEB7572BB1DA48E7821B2CCC /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/kafka_sink.h */ = {isa = PBXBuildFile; fileRef = D6A1928B403D479E9BB5969F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/kafka_sink.h */; };
+		F6B5D7E7BAC247D28B1DCC32 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fwd.h */ = {isa = PBXBuildFile; fileRef = D32DF670E6D647389FF7FDC3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fwd.h */; };
+		F97A6A8A40A44C77B9D51A2B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/circular_q.h */ = {isa = PBXBuildFile; fileRef = FBBBC8D7C8064BD8911A9950 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/circular_q.h */; };
+		FA2F59FE93DB48ADB0D3071E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/os.h */ = {isa = PBXBuildFile; fileRef = 92A5C8AEA671439BA194F422 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/os.h */; };
+		FF6839D380BB446087437751 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/tcp_client-windows.h */ = {isa = PBXBuildFile; fileRef = 59D314CAA4834CBF8CA87147 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/tcp_client-windows.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		62C8200A241644F78A5EF890 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		81D9C24A4FAC443AAD8B443C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D03E2EE11BE94352B01EFBFA /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		EB506955CA584BF9A5C1D0B7 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		176ACBF810274C0F8AB2562C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B62CEBB61A34867AD0F0C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2286C32A1A9881457B33F481;
+			remoteInfo = ZERO_CHECK;
+		};
+		6790210846F84812A5B30BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B62CEBB61A34867AD0F0C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2286C32A1A9881457B33F481;
+			remoteInfo = ZERO_CHECK;
+		};
+		7AD5F50119124ACB9B02453F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B62CEBB61A34867AD0F0C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F898564ED5F4079A5322B18;
+			remoteInfo = spdlog;
+		};
+		9FA00563DADB4416B0102AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B62CEBB61A34867AD0F0C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32A1A2A9C1E0A139C97B3E3;
+			remoteInfo = ALL_BUILD;
+		};
+		BDC26C5F3C264472BCAADC51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B62CEBB61A34867AD0F0C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32A1A2A9C1E0A139C97B3E3;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D67D0F0A8A4894A8111116 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/os.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = os.h; path = include/spdlog/fmt/bundled/os.h; sourceTree = SOURCE_ROOT; };
+		07E0C0547C9644E89BB74F29 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/udp_client-windows.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "udp_client-windows.h"; path = "include/spdlog/details/udp_client-windows.h"; sourceTree = SOURCE_ROOT; };
+		0BF3EF3771A84313AB6D557D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/xchar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xchar.h; path = include/spdlog/fmt/bundled/xchar.h; sourceTree = SOURCE_ROOT; };
+		0E8603312CEA4AC49AD81CFD /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/printf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = printf.h; path = include/spdlog/fmt/bundled/printf.h; sourceTree = SOURCE_ROOT; };
+		10B9983667974C4B82EFB93E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = log_msg.h; path = include/spdlog/details/log_msg.h; sourceTree = SOURCE_ROOT; };
+		1141969D635E4A0AA4DBFEF0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sink.h; path = include/spdlog/sinks/sink.h; sourceTree = SOURCE_ROOT; };
+		11F69013338D422E8ED518A3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/file_sinks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = file_sinks.cpp; path = src/file_sinks.cpp; sourceTree = SOURCE_ROOT; };
+		13ACEE76080A4595882AE27E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg_buffer-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "log_msg_buffer-inl.h"; path = "include/spdlog/details/log_msg_buffer-inl.h"; sourceTree = SOURCE_ROOT; };
+		199EBA05368E4668A5CCA13B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/android_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = android_sink.h; path = include/spdlog/sinks/android_sink.h; sourceTree = SOURCE_ROOT; };
+		1AF619E07751445BAF0FDAEF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/thread_pool-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "thread_pool-inl.h"; path = "include/spdlog/details/thread_pool-inl.h"; sourceTree = SOURCE_ROOT; };
+		1ED7FDF5875E496FB0F72E46 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/win_eventlog_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = win_eventlog_sink.h; path = include/spdlog/sinks/win_eventlog_sink.h; sourceTree = SOURCE_ROOT; };
+		223E499D33A24C129F1EC32A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/cfg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cfg.cpp; path = src/cfg.cpp; sourceTree = SOURCE_ROOT; };
+		2327F733AAF342C2ABB92A56 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ansicolor_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ansicolor_sink.h; path = include/spdlog/sinks/ansicolor_sink.h; sourceTree = SOURCE_ROOT; };
+		23F9380BE0FC42479CA2CF07 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/format-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "format-inl.h"; path = "include/spdlog/fmt/bundled/format-inl.h"; sourceTree = SOURCE_ROOT; };
+		2440656A93B449E4B1475AE3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/basic_file_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = basic_file_sink.h; path = include/spdlog/sinks/basic_file_sink.h; sourceTree = SOURCE_ROOT; };
+		272CFDE26CAB40238FB95244 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = async.h; path = include/spdlog/async.h; sourceTree = SOURCE_ROOT; };
+		286DFCDF6B8C4CF0937ADB75 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/version.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = version.h; path = include/spdlog/version.h; sourceTree = SOURCE_ROOT; };
+		2B38ECEC5DB941B2ACBA62CB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/chrono.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = chrono.h; path = include/spdlog/fmt/bundled/chrono.h; sourceTree = SOURCE_ROOT; };
+		2DAB1E6E03744CA5982F773C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/pattern_formatter-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "pattern_formatter-inl.h"; path = "include/spdlog/pattern_formatter-inl.h"; sourceTree = SOURCE_ROOT; };
+		2DF3A853FCAD4F828A36DE6B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/ostream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ostream.h; path = include/spdlog/fmt/bundled/ostream.h; sourceTree = SOURCE_ROOT; };
+		30EE677E6F8C4364A4BC2A2C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/null_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_sink.h; path = include/spdlog/sinks/null_sink.h; sourceTree = SOURCE_ROOT; };
+		3129AE982BC24AE99466977A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async_logger-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "async_logger-inl.h"; path = "include/spdlog/async_logger-inl.h"; sourceTree = SOURCE_ROOT; };
+		331A7D7FEF994F928D05632B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/periodic_worker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = periodic_worker.h; path = include/spdlog/details/periodic_worker.h; sourceTree = SOURCE_ROOT; };
+		382DCBDCE80B411FBB724F3E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/udp_client.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = udp_client.h; path = include/spdlog/details/udp_client.h; sourceTree = SOURCE_ROOT; };
+		38D5C755179649549F63FB5D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/ranges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ranges.h; path = include/spdlog/fmt/bundled/ranges.h; sourceTree = SOURCE_ROOT; };
+		41FF77285A0343A6AF975979 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/stopwatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stopwatch.h; path = include/spdlog/stopwatch.h; sourceTree = SOURCE_ROOT; };
+		424DD8E7FB30481CBBBC80EA /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/color.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = color.h; path = include/spdlog/fmt/bundled/color.h; sourceTree = SOURCE_ROOT; };
+		4814FE93DD8742899E803962 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/periodic_worker-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "periodic_worker-inl.h"; path = "include/spdlog/details/periodic_worker-inl.h"; sourceTree = SOURCE_ROOT; };
+		499BB279B7FD42B8B0279F63 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/os-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "os-inl.h"; path = "include/spdlog/details/os-inl.h"; sourceTree = SOURCE_ROOT; };
+		4BC1B2F62A6C471380D7E646 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base.h; path = include/spdlog/fmt/bundled/base.h; sourceTree = SOURCE_ROOT; };
+		4E99F0D98EF840EFA605B04A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/spdlog-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "spdlog-inl.h"; path = "include/spdlog/spdlog-inl.h"; sourceTree = SOURCE_ROOT; };
+		51EEDDEDBB5149049329AFF1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/registry-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "registry-inl.h"; path = "include/spdlog/details/registry-inl.h"; sourceTree = SOURCE_ROOT; };
+		529E797E0BD7416089CBCF9E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/spdlog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = spdlog.h; path = include/spdlog/spdlog.h; sourceTree = SOURCE_ROOT; };
+		53E41FECEFC248179BDC61FE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "ansicolor_sink-inl.h"; path = "include/spdlog/sinks/ansicolor_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		5446A80EC6024DF5A78908AE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_sinks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stdout_sinks.h; path = include/spdlog/sinks/stdout_sinks.h; sourceTree = SOURCE_ROOT; };
+		5550FC88F16344F68B215E3D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/tcp_client.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tcp_client.h; path = include/spdlog/details/tcp_client.h; sourceTree = SOURCE_ROOT; };
+		557A52CF3CFC445CA0AF86C8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/format.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = format.h; path = include/spdlog/fmt/bundled/format.h; sourceTree = SOURCE_ROOT; };
+		569B175B9AA148EA99AC5109 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "sink-inl.h"; path = "include/spdlog/sinks/sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		59D314CAA4834CBF8CA87147 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/tcp_client-windows.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "tcp_client-windows.h"; path = "include/spdlog/details/tcp_client-windows.h"; sourceTree = SOURCE_ROOT; };
+		5CDFDB4E518046DEB898C786 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/tweakme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tweakme.h; path = include/spdlog/tweakme.h; sourceTree = SOURCE_ROOT; };
+		5E00179C5A574A2087D169CF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "log_msg-inl.h"; path = "include/spdlog/details/log_msg-inl.h"; sourceTree = SOURCE_ROOT; };
+		5FE7B6046ED94E3D9A61F201 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ostream_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ostream_sink.h; path = include/spdlog/sinks/ostream_sink.h; sourceTree = SOURCE_ROOT; };
+		636DF723C1544ED583AD362F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/common-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "common-inl.h"; path = "include/spdlog/common-inl.h"; sourceTree = SOURCE_ROOT; };
+		64614840D2B642AD8FD0AFBF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/std.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = std.h; path = include/spdlog/fmt/std.h; sourceTree = SOURCE_ROOT; };
+		6468C8EAB20E4CE2B9AA185A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/callback_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = callback_sink.h; path = include/spdlog/sinks/callback_sink.h; sourceTree = SOURCE_ROOT; };
+		65ABBC92E0B946589DE0326D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/mpmc_blocking_q.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mpmc_blocking_q.h; path = include/spdlog/details/mpmc_blocking_q.h; sourceTree = SOURCE_ROOT; };
+		73E95479D5F24014893DA0FB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/mongo_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mongo_sink.h; path = include/spdlog/sinks/mongo_sink.h; sourceTree = SOURCE_ROOT; };
+		757A7C32AEE14830976D025B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg_buffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = log_msg_buffer.h; path = include/spdlog/details/log_msg_buffer.h; sourceTree = SOURCE_ROOT; };
+		78ACA41C608F45B98078D482 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/udp_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = udp_sink.h; path = include/spdlog/sinks/udp_sink.h; sourceTree = SOURCE_ROOT; };
+		7C2595BEBD7C4F9B840C7965 /* spdlog */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libspdlogd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC0C878ADFB4AFDBDE058D1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/dist_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dist_sink.h; path = include/spdlog/sinks/dist_sink.h; sourceTree = SOURCE_ROOT; };
+		8097AC882B054E80AD4C0DF3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/pattern_formatter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pattern_formatter.h; path = include/spdlog/pattern_formatter.h; sourceTree = SOURCE_ROOT; };
+		8232134D4EEA47A581B80D90 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/console_globals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = console_globals.h; path = include/spdlog/details/console_globals.h; sourceTree = SOURCE_ROOT; };
+		826633F17DF548D696A81108 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_sinks-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "stdout_sinks-inl.h"; path = "include/spdlog/sinks/stdout_sinks-inl.h"; sourceTree = SOURCE_ROOT; };
+		848672FD59A74162B90E491C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/spdlog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = spdlog.cpp; path = src/spdlog.cpp; sourceTree = SOURCE_ROOT; };
+		8996F74E21E6483DB262BE4C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/syslog_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = syslog_sink.h; path = include/spdlog/sinks/syslog_sink.h; sourceTree = SOURCE_ROOT; };
+		8A31962B478646228D6FA41C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bin_to_hex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bin_to_hex.h; path = include/spdlog/fmt/bin_to_hex.h; sourceTree = SOURCE_ROOT; };
+		8D66C1A17DEC4CAC99507CC9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/registry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = registry.h; path = include/spdlog/details/registry.h; sourceTree = SOURCE_ROOT; };
+		8EAA28D37F084265B6BBA7AB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/stdout_sinks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stdout_sinks.cpp; path = src/stdout_sinks.cpp; sourceTree = SOURCE_ROOT; };
+		8F366DAE7BB94B589557F433 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/fmt_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fmt_helper.h; path = include/spdlog/details/fmt_helper.h; sourceTree = SOURCE_ROOT; };
+		91258AE8C39E488B9C3B04E4 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "rotating_file_sink-inl.h"; path = "include/spdlog/sinks/rotating_file_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		92A5C8AEA671439BA194F422 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/os.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = os.h; path = include/spdlog/details/os.h; sourceTree = SOURCE_ROOT; };
+		9ADCEB4F406144E4B379469A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = include/spdlog/common.h; sourceTree = SOURCE_ROOT; };
+		9B126896FF1244CC94BFBB5C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/ostr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ostr.h; path = include/spdlog/fmt/ostr.h; sourceTree = SOURCE_ROOT; };
+		9CB42934EFFB41A1BC096965 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/file_helper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = file_helper.h; path = include/spdlog/details/file_helper.h; sourceTree = SOURCE_ROOT; };
+		9DBC833E51D149E399F70A67 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/wincolor_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "wincolor_sink-inl.h"; path = "include/spdlog/sinks/wincolor_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		9F0653C210A9417CBAB19F07 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/logger-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "logger-inl.h"; path = "include/spdlog/logger-inl.h"; sourceTree = SOURCE_ROOT; };
+		A0E5697549004C999E495D24 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/systemd_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = systemd_sink.h; path = include/spdlog/sinks/systemd_sink.h; sourceTree = SOURCE_ROOT; };
+		A1A84DB6F6D24313A0CE1044 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/dup_filter_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dup_filter_sink.h; path = include/spdlog/sinks/dup_filter_sink.h; sourceTree = SOURCE_ROOT; };
+		A1C4E1FF20A149EDBD71F576 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/file_helper-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "file_helper-inl.h"; path = "include/spdlog/details/file_helper-inl.h"; sourceTree = SOURCE_ROOT; };
+		A1D9E674576B474DB57FDDAA /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/color_sinks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color_sinks.cpp; path = src/color_sinks.cpp; sourceTree = SOURCE_ROOT; };
+		A267686A01BE41C7825EC665 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logger.h; path = include/spdlog/logger.h; sourceTree = SOURCE_ROOT; };
+		A64098B2E30B45A982A8AD5C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/fmt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fmt.h; path = include/spdlog/fmt/fmt.h; sourceTree = SOURCE_ROOT; };
+		A797DDA1D4874B919059D557 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/daily_file_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = daily_file_sink.h; path = include/spdlog/sinks/daily_file_sink.h; sourceTree = SOURCE_ROOT; };
+		A9B136F1150B44D5AAB008DF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async_logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = async_logger.h; path = include/spdlog/async_logger.h; sourceTree = SOURCE_ROOT; };
+		AF00264E996D4ADA87850135 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = include/spdlog/fmt/bundled/core.h; sourceTree = SOURCE_ROOT; };
+		B2BCA212687D4B23AE86AD3B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/xchar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xchar.h; path = include/spdlog/fmt/xchar.h; sourceTree = SOURCE_ROOT; };
+		B587F49048B24934BB8CF374 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ringbuffer_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ringbuffer_sink.h; path = include/spdlog/sinks/ringbuffer_sink.h; sourceTree = SOURCE_ROOT; };
+		B6D6997461264695BE0ECBE8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/null_mutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = null_mutex.h; path = include/spdlog/details/null_mutex.h; sourceTree = SOURCE_ROOT; };
+		B9F47E18306D4B5EB8B374D0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/compile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = compile.h; path = include/spdlog/fmt/compile.h; sourceTree = SOURCE_ROOT; };
+		BB4644B55E9E445AA490D5D5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "stdout_color_sinks-inl.h"; path = "include/spdlog/sinks/stdout_color_sinks-inl.h"; sourceTree = SOURCE_ROOT; };
+		BD2F08C4122F4D3E86C00113 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/compile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = compile.h; path = include/spdlog/fmt/bundled/compile.h; sourceTree = SOURCE_ROOT; };
+		BE067293074B422296726EF1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/formatter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = formatter.h; path = include/spdlog/formatter.h; sourceTree = SOURCE_ROOT; };
+		BEC9CBE9771642CBAD66F1CD /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/base_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base_sink.h; path = include/spdlog/sinks/base_sink.h; sourceTree = SOURCE_ROOT; };
+		BF2094A9F4574D42A6195B34 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C7C77E1725424FAC87AA57E5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/mdc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mdc.h; path = include/spdlog/mdc.h; sourceTree = SOURCE_ROOT; };
+		C8279CE3013940578D61CE56 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_color_sinks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stdout_color_sinks.h; path = include/spdlog/sinks/stdout_color_sinks.h; sourceTree = SOURCE_ROOT; };
+		C98E8688A79342248743CEA1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/msvc_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = msvc_sink.h; path = include/spdlog/sinks/msvc_sink.h; sourceTree = SOURCE_ROOT; };
+		C9998B5A5D1F491DBB9BC9A5 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/CMakeFiles/spdlog.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/CMakeFiles/spdlog.dir/Info.plist"; sourceTree = "<absolute>"; };
+		CC829F74D65B40A09F72A9A0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/wincolor_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = wincolor_sink.h; path = include/spdlog/sinks/wincolor_sink.h; sourceTree = SOURCE_ROOT; };
+		CE45EFD23A104653829C6806 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/tcp_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tcp_sink.h; path = include/spdlog/sinks/tcp_sink.h; sourceTree = SOURCE_ROOT; };
+		CEFC74DE5B8D4CAEB8A81A7F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/rotating_file_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rotating_file_sink.h; path = include/spdlog/sinks/rotating_file_sink.h; sourceTree = SOURCE_ROOT; };
+		CFAD00AC24364702A029E6EC /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/bundled_fmtlib_format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bundled_fmtlib_format.cpp; path = src/bundled_fmtlib_format.cpp; sourceTree = SOURCE_ROOT; };
+		D32DF670E6D647389FF7FDC3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fwd.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fwd.h; path = include/spdlog/fwd.h; sourceTree = SOURCE_ROOT; };
+		D6A1928B403D479E9BB5969F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/kafka_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kafka_sink.h; path = include/spdlog/sinks/kafka_sink.h; sourceTree = SOURCE_ROOT; };
+		D75C4A4A6A8B4BEBBAB80BF0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/ranges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ranges.h; path = include/spdlog/fmt/ranges.h; sourceTree = SOURCE_ROOT; };
+		DB4838E7FE474059A145B39C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/windows_include.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = windows_include.h; path = include/spdlog/details/windows_include.h; sourceTree = SOURCE_ROOT; };
+		DC1661DFF7F14528A6688F91 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/basic_file_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "basic_file_sink-inl.h"; path = "include/spdlog/sinks/basic_file_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		E100A6C04ECA443EB2781A8E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/qt_sinks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = qt_sinks.h; path = include/spdlog/sinks/qt_sinks.h; sourceTree = SOURCE_ROOT; };
+		E43F63A49F694AE59A016FB8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/std.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = std.h; path = include/spdlog/fmt/bundled/std.h; sourceTree = SOURCE_ROOT; };
+		EBE8641A458D4CC7AC967689 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/args.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = args.h; path = include/spdlog/fmt/bundled/args.h; sourceTree = SOURCE_ROOT; };
+		ECA30FFA90C24F6198C22DA5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/synchronous_factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = synchronous_factory.h; path = include/spdlog/details/synchronous_factory.h; sourceTree = SOURCE_ROOT; };
+		EDCA6A2A6B734408B1F832B0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/async.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = async.cpp; path = src/async.cpp; sourceTree = SOURCE_ROOT; };
+		EF26B6BC456241639B8FC3D2 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/chrono.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = chrono.h; path = include/spdlog/fmt/chrono.h; sourceTree = SOURCE_ROOT; };
+		EFF5F3762EAF461C8E1294EE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/hourly_file_sink.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hourly_file_sink.h; path = include/spdlog/sinks/hourly_file_sink.h; sourceTree = SOURCE_ROOT; };
+		F2451CC5DBC9494681E2D92A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/backtracer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = backtracer.h; path = include/spdlog/details/backtracer.h; sourceTree = SOURCE_ROOT; };
+		F340FD72627C4EE791E898E1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/base_sink-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "base_sink-inl.h"; path = "include/spdlog/sinks/base_sink-inl.h"; sourceTree = SOURCE_ROOT; };
+		FAC321616F964631AE66AE39 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FBBBC8D7C8064BD8911A9950 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/circular_q.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = circular_q.h; path = include/spdlog/details/circular_q.h; sourceTree = SOURCE_ROOT; };
+		FC039BBDCB674128B0A9CA97 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/backtracer-inl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "backtracer-inl.h"; path = "include/spdlog/details/backtracer-inl.h"; sourceTree = SOURCE_ROOT; };
+		FD2FAAE2B6264C85A1EA9D28 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/locale.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = locale.h; path = include/spdlog/fmt/bundled/locale.h; sourceTree = SOURCE_ROOT; };
+		FD987348BC8F47A9B093CB61 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/thread_pool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = thread_pool.h; path = include/spdlog/details/thread_pool.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2899673D895E43249564130A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1744B69614E14173B53051BB /* sinks */ = {
+			isa = PBXGroup;
+			children = (
+				199EBA05368E4668A5CCA13B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/android_sink.h */,
+				53E41FECEFC248179BDC61FE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h */,
+				2327F733AAF342C2ABB92A56 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ansicolor_sink.h */,
+				F340FD72627C4EE791E898E1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/base_sink-inl.h */,
+				BEC9CBE9771642CBAD66F1CD /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/base_sink.h */,
+				DC1661DFF7F14528A6688F91 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/basic_file_sink-inl.h */,
+				2440656A93B449E4B1475AE3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/basic_file_sink.h */,
+				6468C8EAB20E4CE2B9AA185A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/callback_sink.h */,
+				A797DDA1D4874B919059D557 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/daily_file_sink.h */,
+				7CC0C878ADFB4AFDBDE058D1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/dist_sink.h */,
+				A1A84DB6F6D24313A0CE1044 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/dup_filter_sink.h */,
+				EFF5F3762EAF461C8E1294EE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/hourly_file_sink.h */,
+				D6A1928B403D479E9BB5969F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/kafka_sink.h */,
+				73E95479D5F24014893DA0FB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/mongo_sink.h */,
+				C98E8688A79342248743CEA1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/msvc_sink.h */,
+				30EE677E6F8C4364A4BC2A2C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/null_sink.h */,
+				5FE7B6046ED94E3D9A61F201 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ostream_sink.h */,
+				E100A6C04ECA443EB2781A8E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/qt_sinks.h */,
+				B587F49048B24934BB8CF374 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/ringbuffer_sink.h */,
+				91258AE8C39E488B9C3B04E4 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h */,
+				CEFC74DE5B8D4CAEB8A81A7F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/rotating_file_sink.h */,
+				569B175B9AA148EA99AC5109 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/sink-inl.h */,
+				1141969D635E4A0AA4DBFEF0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/sink.h */,
+				BB4644B55E9E445AA490D5D5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h */,
+				C8279CE3013940578D61CE56 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_color_sinks.h */,
+				826633F17DF548D696A81108 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_sinks-inl.h */,
+				5446A80EC6024DF5A78908AE /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/stdout_sinks.h */,
+				8996F74E21E6483DB262BE4C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/syslog_sink.h */,
+				A0E5697549004C999E495D24 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/systemd_sink.h */,
+				CE45EFD23A104653829C6806 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/tcp_sink.h */,
+				78ACA41C608F45B98078D482 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/udp_sink.h */,
+				1ED7FDF5875E496FB0F72E46 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/win_eventlog_sink.h */,
+				9DBC833E51D149E399F70A67 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/wincolor_sink-inl.h */,
+				CC829F74D65B40A09F72A9A0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/sinks/wincolor_sink.h */,
+			);
+			name = sinks;
+			sourceTree = "<group>";
+		};
+		1A9540579E07482D994384A3 /* fmt */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE572CCA1C4AD18F745282 /* bundled */,
+				8A31962B478646228D6FA41C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bin_to_hex.h */,
+				EF26B6BC456241639B8FC3D2 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/chrono.h */,
+				B9F47E18306D4B5EB8B374D0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/compile.h */,
+				A64098B2E30B45A982A8AD5C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/fmt.h */,
+				9B126896FF1244CC94BFBB5C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/ostr.h */,
+				D75C4A4A6A8B4BEBBAB80BF0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/ranges.h */,
+				64614840D2B642AD8FD0AFBF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/std.h */,
+				B2BCA212687D4B23AE86AD3B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/xchar.h */,
+			);
+			name = fmt;
+			sourceTree = "<group>";
+		};
+		293DD6BAFF2446A691F5923A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9998B5A5D1F491DBB9BC9A5 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/CMakeFiles/spdlog.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		44C5904C101848F1A6B75E9C /* spdlog */ = {
+			isa = PBXGroup;
+			children = (
+				F4DED4A0EEE74CC39D464719 /* details */,
+				1744B69614E14173B53051BB /* sinks */,
+				1A9540579E07482D994384A3 /* fmt */,
+				272CFDE26CAB40238FB95244 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async.h */,
+				3129AE982BC24AE99466977A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async_logger-inl.h */,
+				A9B136F1150B44D5AAB008DF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/async_logger.h */,
+				636DF723C1544ED583AD362F /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/common-inl.h */,
+				9ADCEB4F406144E4B379469A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/common.h */,
+				BE067293074B422296726EF1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/formatter.h */,
+				D32DF670E6D647389FF7FDC3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fwd.h */,
+				9F0653C210A9417CBAB19F07 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/logger-inl.h */,
+				A267686A01BE41C7825EC665 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/logger.h */,
+				C7C77E1725424FAC87AA57E5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/mdc.h */,
+				2DAB1E6E03744CA5982F773C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/pattern_formatter-inl.h */,
+				8097AC882B054E80AD4C0DF3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/pattern_formatter.h */,
+				4E99F0D98EF840EFA605B04A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/spdlog-inl.h */,
+				529E797E0BD7416089CBCF9E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/spdlog.h */,
+				41FF77285A0343A6AF975979 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/stopwatch.h */,
+				5CDFDB4E518046DEB898C786 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/tweakme.h */,
+				286DFCDF6B8C4CF0937ADB75 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/version.h */,
+			);
+			name = spdlog;
+			sourceTree = "<group>";
+		};
+		4AAE572CCA1C4AD18F745282 /* bundled */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8641A458D4CC7AC967689 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/args.h */,
+				4BC1B2F62A6C471380D7E646 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/base.h */,
+				2B38ECEC5DB941B2ACBA62CB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/chrono.h */,
+				424DD8E7FB30481CBBBC80EA /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/color.h */,
+				BD2F08C4122F4D3E86C00113 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/compile.h */,
+				AF00264E996D4ADA87850135 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/core.h */,
+				23F9380BE0FC42479CA2CF07 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/format-inl.h */,
+				557A52CF3CFC445CA0AF86C8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/format.h */,
+				FD2FAAE2B6264C85A1EA9D28 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/locale.h */,
+				01D67D0F0A8A4894A8111116 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/os.h */,
+				2DF3A853FCAD4F828A36DE6B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/ostream.h */,
+				0E8603312CEA4AC49AD81CFD /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/printf.h */,
+				38D5C755179649549F63FB5D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/ranges.h */,
+				E43F63A49F694AE59A016FB8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/std.h */,
+				0BF3EF3771A84313AB6D557D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/fmt/bundled/xchar.h */,
+			);
+			name = bundled;
+			sourceTree = "<group>";
+		};
+		4F207D22D84245619EBCE9B9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		69FE6417A5A24F96B33E745A /* spdlog */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF3A20DBBA4FFC81E58E94 /* Source Files */,
+				EFC6DE48E96641929465E12B /* Header Files */,
+				293DD6BAFF2446A691F5923A /* Resources */,
+				FAC321616F964631AE66AE39 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/CMakeLists.txt */,
+			);
+			name = spdlog;
+			sourceTree = "<group>";
+		};
+		71063A08B14240818AF79A7D = {
+			isa = PBXGroup;
+			children = (
+				69FE6417A5A24F96B33E745A /* spdlog */,
+				CADE9197CFCF4CCB9042A993 /* ALL_BUILD */,
+				8E867F74752F4409847DE7EF /* Products */,
+				E2438076E16C45C684D29699 /* Frameworks */,
+				A013ACBBC76F45AD81AFBF26 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		8E867F74752F4409847DE7EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C2595BEBD7C4F9B840C7965 /* spdlog */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCF3A20DBBA4FFC81E58E94 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDCA6A2A6B734408B1F832B0 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/async.cpp */,
+				CFAD00AC24364702A029E6EC /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/bundled_fmtlib_format.cpp */,
+				223E499D33A24C129F1EC32A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/cfg.cpp */,
+				A1D9E674576B474DB57FDDAA /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/color_sinks.cpp */,
+				11F69013338D422E8ED518A3 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/file_sinks.cpp */,
+				848672FD59A74162B90E491C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/spdlog.cpp */,
+				8EAA28D37F084265B6BBA7AB /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/stdout_sinks.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A013ACBBC76F45AD81AFBF26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CADE9197CFCF4CCB9042A993 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4F207D22D84245619EBCE9B9 /* CMake Rules */,
+				BF2094A9F4574D42A6195B34 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E2438076E16C45C684D29699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC6DE48E96641929465E12B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				44C5904C101848F1A6B75E9C /* spdlog */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F4DED4A0EEE74CC39D464719 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				FC039BBDCB674128B0A9CA97 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/backtracer-inl.h */,
+				F2451CC5DBC9494681E2D92A /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/backtracer.h */,
+				FBBBC8D7C8064BD8911A9950 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/circular_q.h */,
+				8232134D4EEA47A581B80D90 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/console_globals.h */,
+				A1C4E1FF20A149EDBD71F576 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/file_helper-inl.h */,
+				9CB42934EFFB41A1BC096965 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/file_helper.h */,
+				8F366DAE7BB94B589557F433 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/fmt_helper.h */,
+				5E00179C5A574A2087D169CF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg-inl.h */,
+				10B9983667974C4B82EFB93E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg.h */,
+				13ACEE76080A4595882AE27E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg_buffer-inl.h */,
+				757A7C32AEE14830976D025B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/log_msg_buffer.h */,
+				65ABBC92E0B946589DE0326D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/mpmc_blocking_q.h */,
+				B6D6997461264695BE0ECBE8 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/null_mutex.h */,
+				499BB279B7FD42B8B0279F63 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/os-inl.h */,
+				92A5C8AEA671439BA194F422 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/os.h */,
+				4814FE93DD8742899E803962 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/periodic_worker-inl.h */,
+				331A7D7FEF994F928D05632B /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/periodic_worker.h */,
+				51EEDDEDBB5149049329AFF1 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/registry-inl.h */,
+				8D66C1A17DEC4CAC99507CC9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/registry.h */,
+				ECA30FFA90C24F6198C22DA5 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/synchronous_factory.h */,
+				59D314CAA4834CBF8CA87147 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/tcp_client-windows.h */,
+				5550FC88F16344F68B215E3D /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/tcp_client.h */,
+				1AF619E07751445BAF0FDAEF /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/thread_pool-inl.h */,
+				FD987348BC8F47A9B093CB61 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/thread_pool.h */,
+				07E0C0547C9644E89BB74F29 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/udp_client-windows.h */,
+				382DCBDCE80B411FBB724F3E /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/udp_client.h */,
+				DB4838E7FE474059A145B39C /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/include/spdlog/details/windows_include.h */,
+			);
+			name = details;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F898564ED5F4079A5322B18 /* spdlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E68A376C9AF4120A932F83F /* Build configuration list for PBXNativeTarget "spdlog" */;
+			buildPhases = (
+				73641E06C1CA47CC9681021E /* Sources */,
+				2899673D895E43249564130A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4AA94D016CC478EA40EF625 /* PBXTargetDependency */,
+			);
+			name = spdlog;
+			productName = spdlog;
+			productReference = 7C2595BEBD7C4F9B840C7965 /* spdlog */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B62CEBB61A34867AD0F0C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 228F6657FE7D48589694BF11 /* Build configuration list for PBXProject "spdlog" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				62C8200A241644F78A5EF890 /* Debug */,
+				EB506955CA584BF9A5C1D0B7 /* Release */,
+				D03E2EE11BE94352B01EFBFA /* MinSizeRel */,
+				81D9C24A4FAC443AAD8B443C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 71063A08B14240818AF79A7D;
+			projectDirPath = "/Users/joakimwennergren/Entropy-Engine/external/spdlog";
+			projectRoot = "";
+			targets = (
+				A32A1A2A9C1E0A139C97B3E3 /* ALL_BUILD */,
+				2286C32A1A9881457B33F481 /* ZERO_CHECK */,
+				5DB8807C97706BA5A3B4FF3A /* install */,
+				0686F15A851298A740815862 /* package */,
+				9F898564ED5F4079A5322B18 /* spdlog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios\"
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios\"
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios\"
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios\"
+  /opt/homebrew/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A39826E1699F2C7A26D637C1 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  make -f /Users/joakimwennergren/Svampjakt\\ 2/cmake-debug-ios/Entropy/external/spdlog/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  make -f /Users/joakimwennergren/Svampjakt\\ 2/cmake-debug-ios/Entropy/external/spdlog/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  make -f /Users/joakimwennergren/Svampjakt\\ 2/cmake-debug-ios/Entropy/external/spdlog/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  make -f /Users/joakimwennergren/Svampjakt\\ 2/cmake-debug-ios/Entropy/external/spdlog/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		E78EDF5DC1D8317B0D422B82 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73641E06C1CA47CC9681021E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D618C858CAC447518E84A549 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/async.cpp */,
+				A7202F3A195B4FDB90E74D68 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/bundled_fmtlib_format.cpp */,
+				0A461E900C2F45DF85D98384 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/cfg.cpp */,
+				C2816B7F4F1446AE9BF64015 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/color_sinks.cpp */,
+				2F8848681FA747B1A386FCE6 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/file_sinks.cpp */,
+				7E61545237604116851565D9 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/spdlog.cpp */,
+				3C04BBAC86A248BCA7BF9681 /* /Users/joakimwennergren/Entropy-Engine/external/spdlog/src/stdout_sinks.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E30B765F41D419D9E0DBA72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F898564ED5F4079A5322B18 /* spdlog */;
+			targetProxy = 7AD5F50119124ACB9B02453F /* PBXContainerItemProxy */;
+		};
+		35CD1AAF0A4046A6BFB7CA4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2286C32A1A9881457B33F481 /* ZERO_CHECK */;
+			targetProxy = 176ACBF810274C0F8AB2562C /* PBXContainerItemProxy */;
+		};
+		A72345F1D617465EAF7DB1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32A1A2A9C1E0A139C97B3E3 /* ALL_BUILD */;
+			targetProxy = BDC26C5F3C264472BCAADC51 /* PBXContainerItemProxy */;
+		};
+		D4AA94D016CC478EA40EF625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2286C32A1A9881457B33F481 /* ZERO_CHECK */;
+			targetProxy = 6790210846F84812A5B30BE2 /* PBXContainerItemProxy */;
+		};
+		FDE273C9F98349239985B481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32A1A2A9C1E0A139C97B3E3 /* ALL_BUILD */;
+			targetProxy = 9FA00563DADB4416B0102AF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		130FD134D0004ACC9321DD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+			};
+			name = Debug;
+		};
+		1893BE85B58C48338DAB3D8B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+			};
+			name = RelWithDebInfo;
+		};
+		1ABDF7C5A3A343338CA4AE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		278DB8EF97F34344A943DAD5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2DA79AAD4D2A456DB37FE104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,"'HAVE_FCNTL_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/spdlog/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = spdlog;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build/spdlog.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2DD173978C6842888EDC9558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		312BE5ADFA6241F4913E636D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3E548913F62D4B028EBE4E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		47C3C0F07DA64497BD2A9B96 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		486A7430BE6B4D86A7098F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		489788D4440D40638DFDDDBE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7C4AFE81FADF41CAA4BE525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/Debug${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,"'HAVE_FCNTL_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/spdlog/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = spdlogd;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build/spdlog.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		837CC36CED4B4BEE89AA7278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		839350E6FEF34D6F87A0B46D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+			};
+			name = MinSizeRel;
+		};
+		B82ACC064DDF4AC18E4F1184 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B89A8153494243DEAF94F83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BA03FA11D13D4808AD9D62D9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C58C5151DC25457F8A31149B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E493F5E0137B49FE8345C53C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,"'HAVE_FCNTL_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/spdlog/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = spdlog;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build/spdlog.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E9D8044168ED4944B58B1440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ED3EAC90644D49DA99E41E6C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,"'HAVE_FCNTL_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/spdlog/include","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = spdlog;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build/spdlog.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F3C88A464EB14ECA93D6190D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
+			};
+			name = Release;
+		};
+		FEFD14DB3C4847A084E3A511 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FFCA3B0703944A02B95328C2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14511BD8247C4603AE2E3B91 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89A8153494243DEAF94F83A /* Debug */,
+				486A7430BE6B4D86A7098F74 /* Release */,
+				312BE5ADFA6241F4913E636D /* MinSizeRel */,
+				FEFD14DB3C4847A084E3A511 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		228F6657FE7D48589694BF11 /* Build configuration list for PBXProject "spdlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130FD134D0004ACC9321DD9D /* Debug */,
+				F3C88A464EB14ECA93D6190D /* Release */,
+				839350E6FEF34D6F87A0B46D /* MinSizeRel */,
+				1893BE85B58C48338DAB3D8B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24C62088AC6042018669E2C8 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E548913F62D4B028EBE4E9E /* Debug */,
+				C58C5151DC25457F8A31149B /* Release */,
+				489788D4440D40638DFDDDBE /* MinSizeRel */,
+				B82ACC064DDF4AC18E4F1184 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2E68A376C9AF4120A932F83F /* Build configuration list for PBXNativeTarget "spdlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C4AFE81FADF41CAA4BE525F /* Debug */,
+				2DA79AAD4D2A456DB37FE104 /* Release */,
+				E493F5E0137B49FE8345C53C /* MinSizeRel */,
+				ED3EAC90644D49DA99E41E6C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3BDA990E59FB4D528413E313 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD173978C6842888EDC9558 /* Debug */,
+				837CC36CED4B4BEE89AA7278 /* Release */,
+				FFCA3B0703944A02B95328C2 /* MinSizeRel */,
+				47C3C0F07DA64497BD2A9B96 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E48F66D9883844B49F64864A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D8044168ED4944B58B1440 /* Debug */,
+				1ABDF7C5A3A343338CA4AE14 /* Release */,
+				BA03FA11D13D4808AD9D62D9 /* MinSizeRel */,
+				278DB8EF97F34344A943DAD5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B62CEBB61A34867AD0F0C27 /* Project object */;
+}
