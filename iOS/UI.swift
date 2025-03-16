@@ -41,8 +41,8 @@ func playSound(index: UInt32) {
     var file = ""
         
     if (index == 1) {
-        file = "click2"
-        guard let path = Bundle.main.path(forResource: file, ofType:"wav") else {
+        file = "click"
+        guard let path = Bundle.main.path(forResource: file, ofType:"mp3") else {
             return
         }
         
@@ -78,7 +78,7 @@ func playSound(index: UInt32) {
     
     if(index == 3) {
         file = "birdsong"
-        guard let path = Bundle.main.path(forResource: file, ofType:"wav") else {
+        guard let path = Bundle.main.path(forResource: file, ofType:"mp3") else {
             return
         }
         
