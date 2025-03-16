@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.28.1)
 
 # Declare project
-project(Entropia)
+project(Svampjakt2)
 
 # set (CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address")
 # set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address")
