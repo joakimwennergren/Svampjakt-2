@@ -113,8 +113,8 @@ public:
     _autoreleasePool->release();
   }
 
-  inline bool applicationDidFinishLaunching(UI::Application *pApp,
-                                            NS::Value *options) override {
+  bool applicationDidFinishLaunching(UI::Application *pApp,
+                                     NS::Value *options) override {
 
     frame = UI::Screen::mainScreen()->bounds();
 
@@ -144,9 +144,8 @@ public:
 
     _pWindow->makeKeyAndVisible();
 
-    CA::MetalLayer *layer = _pMtkView->currentDrawable()->layer();
-
-    ServiceLocator *sl = ServiceLocator::GetInstance();
+    const CA::MetalLayer *layer = _pMtkView->currentDrawable()->layer();
+    const ServiceLocator *sl = ServiceLocator::GetInstance();
 
     VkIOSSurfaceCreateInfoMVK createInfo{};
     createInfo.sType = VK_STRUCTURE_TYPE_IOS_SURFACE_CREATE_INFO_MVK;
@@ -171,8 +170,7 @@ public:
     return true;
   }
 
-public:
-  inline void Run() { UI::ApplicationMain(0, 0, this); }
+  void Run() { ApplicationMain(0, nullptr, this); }
   CGRect frame{};
 
 private:

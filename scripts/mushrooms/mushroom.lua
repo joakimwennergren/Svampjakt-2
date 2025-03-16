@@ -199,7 +199,7 @@ function Mushroom:new(x, y, z, s)
         },
         {
             path = "stjarnrodhatting.png",
-            name = "Stjärnrödhatting",
+            name = "Stjärnrödhätting",
             sx = 1,
             sy = 3,
             points = 5,

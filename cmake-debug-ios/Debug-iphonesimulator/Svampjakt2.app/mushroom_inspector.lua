@@ -263,7 +263,9 @@ function MushroomInspector:update(delta_time, width, height)
 
         if self.choice_made == true then
             -- Show name
-            UpdateText(self.name, self.current_mushroom.handle.name, width * 0.20, height * 0.80)
+            UpdateText(self.name, self.current_mushroom.handle.name,
+                100,
+                height * 0.80)
             if self.answer_timer:GetTick() > 2000.0 then
                 self.direction = 0
                 self.fade_out_timer:Reset()
