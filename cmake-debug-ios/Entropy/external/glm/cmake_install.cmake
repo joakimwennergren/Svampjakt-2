@@ -58,9 +58,8 @@ if(NOT EFFECTIVE_PLATFORM_NAME)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/glm/glm/cmake_install.cmake")
-
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

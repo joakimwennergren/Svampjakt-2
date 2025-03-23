@@ -11,6 +11,7 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/joakimwennergren/Entr
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /opt/homebrew/share/cmake/Modules/FindThreads.cmake))

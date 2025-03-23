@@ -69,11 +69,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/spdlog/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/sol2/cmake_install.cmake")
 endif()
 
