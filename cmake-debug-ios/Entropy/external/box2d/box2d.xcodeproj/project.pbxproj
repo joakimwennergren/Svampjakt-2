@@ -9,19 +9,19 @@
 /* Begin PBXAggregateTarget section */
 		0686F15A851298A740815862 /* package */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3B088044E5AF49A58F8EBDBE /* Build configuration list for PBXAggregateTarget "package" */;
+			buildConfigurationList = 15083B49CFBD430C9546DE0F /* Build configuration list for PBXAggregateTarget "package" */;
 			buildPhases = (
 				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				FA479635E796407CA5079BBA /* PBXTargetDependency */,
+				DAFCCE25F3E04CCC911E117B /* PBXTargetDependency */,
 			);
 			name = package;
 			productName = package;
 		};
 		2286C32A1A9881457B33F481 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CF0B93CF2C8C41C39A732A25 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = A6C065D9CAE946278AE02AC7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				56F8A4998A3AB46E317C7D4D /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -32,25 +32,25 @@
 		};
 		5DB8807C97706BA5A3B4FF3A /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 340EC72575AE4E16B6701848 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = D016B51A7BA04453B17E8FAF /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				25CA886041A743579D060BE5 /* PBXTargetDependency */,
+				C324A1BB1AF2448290A2B490 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
 		};
 		A32A1A2A9C1E0A139C97B3E3 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 4FEF8FB169D9400C86006F24 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 38A3548BB4734ED8971FC928 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				8FB78DD6F959EFAC1678521A /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				6E1ABA5A60854EABAB093B7D /* PBXTargetDependency */,
-				F4FC40C7AFB44EBCB0836568 /* PBXTargetDependency */,
+				D3F258FF738042CEA46A4C09 /* PBXTargetDependency */,
+				78A6812CABAA402F9F1FCEB4 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -58,127 +58,128 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		148E9D6BB81E47E5BBE71310 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */ = {isa = PBXBuildFile; fileRef = A42EE15991014BE1A602BEE4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */; };
-		1494A382B5AF4BB2AA6D78E3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */ = {isa = PBXBuildFile; fileRef = CAFF5DE100F849069987C588 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */; };
-		18562BD3C88146A19693F605 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */ = {isa = PBXBuildFile; fileRef = 2AD79199057E429A97DDAF14 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */; };
-		18623CD29B2D481C83C196C8 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */ = {isa = PBXBuildFile; fileRef = FE2CF7D3C463458D93F52877 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */; };
-		18F09A9D06BF4496ABC4CCC4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */ = {isa = PBXBuildFile; fileRef = 5D5436E2F45A4676874CAD88 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */; };
-		1E78BEE3405947CF96981E2D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.h */ = {isa = PBXBuildFile; fileRef = 8B025C033D0E4CF49EB6EBBA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.h */; };
-		200E95C9A18C49A4B4DCE1A4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.h */ = {isa = PBXBuildFile; fileRef = B54AC8AADC4141329EFC5439 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.h */; };
-		28BACBCEFF3E443CA18EE49D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */ = {isa = PBXBuildFile; fileRef = 9CEDA71A41BC427A9FE44D62 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */; };
-		2B4AB29C8400410196B06230 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */ = {isa = PBXBuildFile; fileRef = 696E6FA7E3AE4AF0A565CEDB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */; };
-		2B689B33EB4B489EB660AC99 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */ = {isa = PBXBuildFile; fileRef = 69B0F515D6A84530ADF1F65A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */; };
-		32BD0275F2B14E7E9F82E0B0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */ = {isa = PBXBuildFile; fileRef = 598D866F9D6D4AAE9B002128 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */; };
-		330E636F03934CDB90DB2382 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.h */ = {isa = PBXBuildFile; fileRef = ADAA0F22E8A54DD8BBBD0F00 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.h */; };
-		3889B8415C464DB3B3C84C78 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 16E515615B454EE4AE71F880 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist */; };
-		43DB8FC97FCD441E93F95860 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.h */ = {isa = PBXBuildFile; fileRef = 68F18C620E3040DA8A0F2D48 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.h */; };
-		45FA37C7F92F4E6DA64C3CC7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */ = {isa = PBXBuildFile; fileRef = 6E9EFB94AAED4220B6B04F43 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */; };
-		46D968779DE84267AECC5C71 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.h */ = {isa = PBXBuildFile; fileRef = 0F9A26B35C884A56B3BA124C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.h */; };
-		4E2AC9D0E0FA4A5AB6E945F1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */ = {isa = PBXBuildFile; fileRef = B6EFAF9FBAF1438DB964D113 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */; };
-		5637A1B3E86B4CA39D4544E5 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */ = {isa = PBXBuildFile; fileRef = 310C006834AB4A5A8CD9FA86 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */; };
-		58914528DBDD4398B5E81EB6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */ = {isa = PBXBuildFile; fileRef = CC3E99BC87A24BE0B2876A7C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */; };
-		61A5C2118E52438BA310A1BB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.h */ = {isa = PBXBuildFile; fileRef = EC4DE7344C3C43C285138362 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.h */; };
-		6265BDA7FCAD4461B4878E53 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */ = {isa = PBXBuildFile; fileRef = F708060CB8004933A1E0CA6A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */; };
-		680CE6C68D764B499B389E1B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */ = {isa = PBXBuildFile; fileRef = 873CCBC844C14085AB608AB0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */; };
-		6CDF132FAC904727BDEB4BB3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */ = {isa = PBXBuildFile; fileRef = 0C30CF67C69649F7AFE3FA01 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */; };
-		6CF515BB5E7A476AB808A664 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.h */ = {isa = PBXBuildFile; fileRef = 88F91AFB5DBD453B9ED3BC2C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.h */; };
-		703F88AF648C419E997C5458 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.h */ = {isa = PBXBuildFile; fileRef = 7C4CB48760AB4326830421AE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.h */; };
-		72C75642F27A4013B166FD65 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/box2d.h */ = {isa = PBXBuildFile; fileRef = F622CED00EC04B4B9528D9FD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/box2d.h */; };
-		7E5903F426A64D199EEF9DFB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.h */ = {isa = PBXBuildFile; fileRef = 143A677AE0134F5DBFB2E362 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.h */; };
-		7EBA09A99DEF4E6891A62A8D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.h */ = {isa = PBXBuildFile; fileRef = 08105313DD5249DCBEF65DDB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.h */; };
-		802CC49E4BA5434497FCCD7D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */ = {isa = PBXBuildFile; fileRef = 9E978F5125CD44A7AA9344F6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */; };
-		80EC7A4C722E497485CAF3FF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.h */ = {isa = PBXBuildFile; fileRef = E2AF56CA7A2E4729964F8030 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.h */; };
-		82FEE2EA2F31418BB4388448 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.h */ = {isa = PBXBuildFile; fileRef = D8433CE7D1EF46E4AA671CA0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.h */; };
-		85F62B474FC44DFB8BF81F8B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */ = {isa = PBXBuildFile; fileRef = 9BA33758DCA24C5DAFA6B614 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */; };
-		870075C2847D489CBDFDBE84 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */ = {isa = PBXBuildFile; fileRef = 6CEC9BCBECF647DF86FB474E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */; };
-		892F6EDA400B4771AA6A1CE4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/types.h */ = {isa = PBXBuildFile; fileRef = E890125AD97C4D50A3464647 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/types.h */; };
-		8A26A570E23742A084B143B2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */ = {isa = PBXBuildFile; fileRef = 3DBE7F04C8484F049EAB807B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */; };
-		8A69F29EF45941EBB5CEC67D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/math_functions.h */ = {isa = PBXBuildFile; fileRef = DF9AB74BE5A1456496F17A61 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/math_functions.h */; };
-		9102DA9CF0684D658469E869 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */ = {isa = PBXBuildFile; fileRef = 28FAE840053F476C8FA66097 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */; };
-		975DE1E634224CBF932D456E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */ = {isa = PBXBuildFile; fileRef = 738E20D83B89489082278CB0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */; };
-		9851A02E904643E6939AB4BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */ = {isa = PBXBuildFile; fileRef = 5B45AAC0A1D44AC19EC8882C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */; };
-		98E5F4CD26BA47C8B5C0AA57 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.h */ = {isa = PBXBuildFile; fileRef = 9BECEEF2BB214B3FAF8A37BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.h */; };
-		9D82F2BE00474699BC414C65 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */ = {isa = PBXBuildFile; fileRef = 190D24C928CB45E58E1E4EA2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */; };
-		B276F1C5B3634A248F0D0210 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.h */ = {isa = PBXBuildFile; fileRef = 45A0682A8DA14EB08396A047 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.h */; };
-		C6C4B98DBD4C47B0B6F023D9 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constants.h */ = {isa = PBXBuildFile; fileRef = EE3E2C6EDDA44905AA8E5168 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constants.h */; };
-		CB7BBD9109A747C395082B4C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */ = {isa = PBXBuildFile; fileRef = D362143208A440EAA76368C4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */; };
-		CDDF1391C5424AFB848C5DC2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */ = {isa = PBXBuildFile; fileRef = 7949FB322FC1457098396549 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */; };
-		CF366D1B33E64E66A1D59DC2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */ = {isa = PBXBuildFile; fileRef = DBDA4540EA9C4537A25B6AE9 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */; };
-		CF41A8C2D4B649EF963A480E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.h */ = {isa = PBXBuildFile; fileRef = E39267EADCB84F9BA8FD068B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.h */; };
-		D0948A56DBD247F3ADD3E34B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */ = {isa = PBXBuildFile; fileRef = C3A5B944AA5B48F79BCFAD79 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */; };
-		D179813B5A60483E844D7507 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */ = {isa = PBXBuildFile; fileRef = E5AB39C4583641BCBC84F3BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */; };
-		D1866DA06EF74FCAB4CD90CA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */ = {isa = PBXBuildFile; fileRef = 45F287E82F2F4792A2161ABE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */; };
-		D60063838AC6478F89B5F081 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */ = {isa = PBXBuildFile; fileRef = AA19F32A090743C98D5BB372 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */; };
-		D797A1F7CC194EA9B0B368F6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/ctz.h */ = {isa = PBXBuildFile; fileRef = B55ACDABACF14A63B90F9843 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/ctz.h */; };
-		D8D3FE537FF24A7382C73D0D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/collision.h */ = {isa = PBXBuildFile; fileRef = C2C551986F4F43C5AD576CBA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/collision.h */; };
-		DEDD0CBDF78A40FF9844B69A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */ = {isa = PBXBuildFile; fileRef = C3B69D7E1F124977822BD314 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */; };
-		E0E5EA5C171844148F439491 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.h */ = {isa = PBXBuildFile; fileRef = 2312CBDE3BDF4D8A9137C8EA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.h */; };
-		E3463AB8FA494153820F1EFE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D8560DC3E0354CAFB4BFA9C0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/CMakeLists.txt */; };
-		E3957FD5CF024D7D82ADCE04 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */ = {isa = PBXBuildFile; fileRef = 6BA7370338DA472BB2647071 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */; };
-		E6F8CDE50384420888CAE7B9 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */ = {isa = PBXBuildFile; fileRef = B65E5F6690ED4C688196A189 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */; };
-		E729B563364B4DCE9902CF1B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.h */ = {isa = PBXBuildFile; fileRef = AFFCE32231DA4067A8AD75A7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.h */; };
-		E915E5C5402E4D6EACE4CE74 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/base.h */ = {isa = PBXBuildFile; fileRef = BE733821DBAD47CEB673CA9F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/base.h */; };
-		F27B51BBE61546179C051EEB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/id.h */ = {isa = PBXBuildFile; fileRef = D5F7F3D8E5E74902B06CDA6E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/id.h */; };
-		F8F8C7644E9D4A89B1CAE8CC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.h */ = {isa = PBXBuildFile; fileRef = 9D3E845A45A24003A3CF4C35 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.h */; };
-		F9916C16D29E4983AFCB90DD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.h */ = {isa = PBXBuildFile; fileRef = 3ACD9F9588A04F1CBAD64931 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.h */; };
+		009A2BDADFB24985B2B15482 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */ = {isa = PBXBuildFile; fileRef = 566FD0E0FCCE4874837BD515 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */; };
+		0538876D325D4790A630FBCF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/types.h */ = {isa = PBXBuildFile; fileRef = 78C6A8954EA14B3E8F3939BE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/types.h */; };
+		06369D33EA9746199AEC93BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.h */ = {isa = PBXBuildFile; fileRef = F8D1CC0558364099827E4583 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.h */; };
+		0712D3CADB834344ABE7F1B1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */ = {isa = PBXBuildFile; fileRef = 7D441215374E400C94FA518A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */; };
+		076E3689451E4A6AA4A1B89C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.h */ = {isa = PBXBuildFile; fileRef = 0C34E63FC1F440E094301766 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.h */; };
+		0CB2C1B3E2B544E5BB690003 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.h */ = {isa = PBXBuildFile; fileRef = 96E05E9F37C346C99F986EFC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.h */; };
+		12259CC2ADEA4F378B17892B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */ = {isa = PBXBuildFile; fileRef = 8B80047D6651461AA4901E65 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */; };
+		1C9451055006447486624B68 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/base.h */ = {isa = PBXBuildFile; fileRef = 1677D2DAD82E404D9083EA42 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/base.h */; };
+		1D211E9DD55741C18585855C /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B6892BE7383749BEA7AE8110 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist */; };
+		225DC14D6DFB4246874E09DE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.h */ = {isa = PBXBuildFile; fileRef = 77BED9B09116457D8E521D79 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.h */; };
+		281510ABF6FB47339F24965C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.h */ = {isa = PBXBuildFile; fileRef = D4F35BF4B86F455F9B38C848 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.h */; };
+		28302297066C4C39875D5BD3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */ = {isa = PBXBuildFile; fileRef = 117B49440FB64B28AA815E30 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */; };
+		2BD28B997EC54EDF9A4612C0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */ = {isa = PBXBuildFile; fileRef = 083DA09EADF54E26A7E0E304 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */; };
+		352CF08987804E1FADCD5DE1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */ = {isa = PBXBuildFile; fileRef = ED2BFA0276B4404CA859C74C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */; };
+		3BD71AFFC2B94A6C86024605 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */ = {isa = PBXBuildFile; fileRef = 59838BB5617D4BB1B8B98C3C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */; };
+		3C94363442F846DAB64C47F8 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */ = {isa = PBXBuildFile; fileRef = 1758E71AB7EE4CD69D35EF16 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */; };
+		413142CDAEF6479C9A97F092 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */ = {isa = PBXBuildFile; fileRef = 2FDF585FBEF041A195AD1B1A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */; };
+		4341D31A4CFF4D4F8AFC2327 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */ = {isa = PBXBuildFile; fileRef = 04E06DFC3FD044C49A5264AB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */; };
+		47DF0C437D134DB4A3B2ACE8 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/id.h */ = {isa = PBXBuildFile; fileRef = 147DDB7F398A43858EFB7DEC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/id.h */; };
+		4A90AF458DE546ABA5B87BBC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.h */ = {isa = PBXBuildFile; fileRef = 689DE80E4A294D3F89E07BCB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.h */; };
+		4B6D15A0436543BEB94FDA36 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */ = {isa = PBXBuildFile; fileRef = 41D1AF698A834EA9B960BF21 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */; };
+		52A6B2692B344B898622CC46 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.h */ = {isa = PBXBuildFile; fileRef = AB04E0B048EF457F85C25BD4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.h */; };
+		545F574AE4DA458A99025C09 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */ = {isa = PBXBuildFile; fileRef = E49268D7664341349C1FC6CD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */; };
+		5889ED66A32F499BABBD5F6B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/collision.h */ = {isa = PBXBuildFile; fileRef = 612B136A593648039ABB4123 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/collision.h */; };
+		597D76D8602044D2AE4E3AB9 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.h */ = {isa = PBXBuildFile; fileRef = 8E191831B9CC49E5BE7DBC3E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.h */; };
+		66633115B20F49A1A8F69D07 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6128315F7C7E4453BFA5B0CB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/CMakeLists.txt */; };
+		67BFE9CFE10C4AA4876272E3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.h */ = {isa = PBXBuildFile; fileRef = 4ECFF9392C0D4721AA9473BA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.h */; };
+		6B88CC81BAB14151827A57A3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/box2d.h */ = {isa = PBXBuildFile; fileRef = B0200297EAC544D6A276E44F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/box2d.h */; };
+		6C7F631EF7614923BB7C472C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.h */ = {isa = PBXBuildFile; fileRef = E5BC81F127494D0EAF316B0C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.h */; };
+		7FB75940D0D240E5AE2E787F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.h */ = {isa = PBXBuildFile; fileRef = 3E17CAE41FE64E7881435255 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.h */; };
+		8203A091121748A59831D618 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */ = {isa = PBXBuildFile; fileRef = B9C8DB7A58EC47A5A0B5E89F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */; };
+		832EAD05C112468EAED0F15B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.h */ = {isa = PBXBuildFile; fileRef = 029F002D4B9C4634B873EC67 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.h */; };
+		851F1E71746B4A58911D071E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.h */ = {isa = PBXBuildFile; fileRef = 3625EB426F1F43068E05BBB8 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.h */; };
+		8EA53540956249329785C869 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */ = {isa = PBXBuildFile; fileRef = 2C56957018244107BD4CE473 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */; };
+		90025022B1694A5E82B3F7FF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.h */ = {isa = PBXBuildFile; fileRef = 85372292CE0D49858D24DE28 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.h */; };
+		962FD6DECE024768A87CF1AE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */ = {isa = PBXBuildFile; fileRef = 25AA3B9DCCDE43CA9D57E544 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */; };
+		96696B20BD394EBEA6A3DB2A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */ = {isa = PBXBuildFile; fileRef = 9EC13BB131094C44A3313599 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */; };
+		A409C595F059441FA83615F3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */ = {isa = PBXBuildFile; fileRef = 67BC976BB11C48AA8F077FDC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */; };
+		A74AB9A5704A45689B5F45F4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/math_functions.h */ = {isa = PBXBuildFile; fileRef = E991EF2A33B1488E96E0069D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/math_functions.h */; };
+		A804E87A67C7417FB5C6BB04 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */ = {isa = PBXBuildFile; fileRef = 8EAA71A735904B34AA93F084 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */; };
+		A9483AC304F34D35B27A5B4B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constants.h */ = {isa = PBXBuildFile; fileRef = 1D8CCE3BF6D64D129B6694BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constants.h */; };
+		B3DBCAA056AD42E1AC466BF4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */ = {isa = PBXBuildFile; fileRef = 8A6CAED7CECC4FDCBBCF32F7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */; };
+		B984821ADA2B415482EE0539 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/atomic.h */ = {isa = PBXBuildFile; fileRef = C1386DBA7EF94BA9A600B942 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/atomic.h */; };
+		C08E8CE3C0E444D998F0E44B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */ = {isa = PBXBuildFile; fileRef = 88084B8D1F464FC78195C981 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */; };
+		C483BD7EA2D04D08B7BAC03A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */ = {isa = PBXBuildFile; fileRef = 9EC16D7705094DBD9EE908DD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */; };
+		C5C2189C24B5494EACFA27B0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.h */ = {isa = PBXBuildFile; fileRef = 84BC4987D95C4407A3266A03 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.h */; };
+		C6CDDF6494BC4095ACA96B34 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */ = {isa = PBXBuildFile; fileRef = 61F75C450A84419E8582B2A7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */; };
+		C83F607E1A6E44E69BE8F698 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.h */ = {isa = PBXBuildFile; fileRef = 1196E92CDE804CD6A4267B3C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.h */; };
+		CAC19350C9574DCCA7D53C4E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */ = {isa = PBXBuildFile; fileRef = 91B604C7954340909FF98FD6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */; };
+		CB36DA88FB91436A833B3597 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */ = {isa = PBXBuildFile; fileRef = 93BC4E182D4549739B22D35B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */; };
+		CB88BFEA5D0249739D4127BE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */ = {isa = PBXBuildFile; fileRef = 4DD15478621B448988B45F5B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */; };
+		D133CFFA1D324D7C86AA0528 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */ = {isa = PBXBuildFile; fileRef = 606F09DC0EAD4CBCA22A42B1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */; };
+		D2B3F84D6B1C40AC974BD3E0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */ = {isa = PBXBuildFile; fileRef = 4D6D400D12274123BFC4F901 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */; };
+		D37A5351BA674745BA625DAB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.h */ = {isa = PBXBuildFile; fileRef = EEB1E9F1F90B43AD9BB39C17 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.h */; };
+		D7B720B61E7148279D18F7B6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */ = {isa = PBXBuildFile; fileRef = 3220FBCF28384ABAB79337FC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */; };
+		DA2E8F09997C4E6CB6F3A9EC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */ = {isa = PBXBuildFile; fileRef = FBD5D27CD5F4497D839C716E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */; };
+		DC64D2F5D0B648EABE5F685E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */ = {isa = PBXBuildFile; fileRef = 6B60A42700E2467889533992 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */; };
+		E3CDE0A539C84F549AD3216B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/ctz.h */ = {isa = PBXBuildFile; fileRef = 840E86C6912B44B7AB474F63 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/ctz.h */; };
+		E8448E3C002B4CFD802C9C70 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */ = {isa = PBXBuildFile; fileRef = B0ACD5550E05431AB867701E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */; };
+		F4023D6927F4468D979C144E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */ = {isa = PBXBuildFile; fileRef = F5DFB062E05440398A4F637A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */; };
+		F44CD03008254DC597E89816 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.h */ = {isa = PBXBuildFile; fileRef = 9945C4314CD04A62839F6467 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.h */; };
+		F5B58E7276914B4BA24AB6BE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */ = {isa = PBXBuildFile; fileRef = 8A31976C73E04131884FDA3B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */; };
+		F69315A676CB435C9C3C578E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */ = {isa = PBXBuildFile; fileRef = E1B7FCEB79204F7389B709A1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */; };
+		F6C0594961124A69AE1CED70 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.h */ = {isa = PBXBuildFile; fileRef = AE2039EDC62745CFB6C31E74 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		4784A4FC3C6841E88D8F7EB4 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		B26FECFBFEB34547809D6F02 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		B5CB444C609E41E69C222CE1 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		FB114AAAA5F346CDA7D3993A /* Debug */ = {
+		137B8038F90845F88C82C77A /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		150908FA4CA4442985609A4E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		937EA77EA46F45529005CE55 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		EB8DDAB116B449F185021FD0 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		7BA2E7761F5749EFBCAA90FE /* PBXContainerItemProxy */ = {
+		1675830F876C4CF3A7A9F747 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D603E4E24E484901AC2AEAAD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 512C4E0C47BF2A0B69B28885;
-			remoteInfo = box2d;
-		};
-		A2FB34D0039446C5A8E228AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D603E4E24E484901AC2AEAAD /* Project object */;
+			containerPortal = 74585EF1641F40E6BB27E7D6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A32A1A2A9C1E0A139C97B3E3;
 			remoteInfo = ALL_BUILD;
 		};
-		B082CC763A23434B9766D047 /* PBXContainerItemProxy */ = {
+		1698414031AD47EB8E2263DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D603E4E24E484901AC2AEAAD /* Project object */;
+			containerPortal = 74585EF1641F40E6BB27E7D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512C4E0C47BF2A0B69B28885;
+			remoteInfo = box2d;
+		};
+		B99FD915F40644AC958AAA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74585EF1641F40E6BB27E7D6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2286C32A1A9881457B33F481;
 			remoteInfo = ZERO_CHECK;
 		};
-		FC5ACD3BBC3C4146BE875854 /* PBXContainerItemProxy */ = {
+		C1E3A9A80CBB47A09898367A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D603E4E24E484901AC2AEAAD /* Project object */;
+			containerPortal = 74585EF1641F40E6BB27E7D6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A32A1A2A9C1E0A139C97B3E3;
 			remoteInfo = ALL_BUILD;
@@ -186,75 +187,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08105313DD5249DCBEF65DDB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solver.h; path = src/solver.h; sourceTree = SOURCE_ROOT; };
-		0C30CF67C69649F7AFE3FA01 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = prismatic_joint.c; path = src/prismatic_joint.c; sourceTree = SOURCE_ROOT; };
-		0F9A26B35C884A56B3BA124C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = src/core.h; sourceTree = SOURCE_ROOT; };
-		143A677AE0134F5DBFB2E362 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solver_set.h; path = src/solver_set.h; sourceTree = SOURCE_ROOT; };
-		16E515615B454EE4AE71F880 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist"; sourceTree = "<absolute>"; };
-		190D24C928CB45E58E1E4EA2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = arena_allocator.c; path = src/arena_allocator.c; sourceTree = SOURCE_ROOT; };
-		2312CBDE3BDF4D8A9137C8EA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = contact.h; path = src/contact.h; sourceTree = SOURCE_ROOT; };
-		28FAE840053F476C8FA66097 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = body.c; path = src/body.c; sourceTree = SOURCE_ROOT; };
-		2AD79199057E429A97DDAF14 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = array.c; path = src/array.c; sourceTree = SOURCE_ROOT; };
-		310C006834AB4A5A8CD9FA86 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = distance_joint.c; path = src/distance_joint.c; sourceTree = SOURCE_ROOT; };
-		3ACD9F9588A04F1CBAD64931 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint.h; path = src/joint.h; sourceTree = SOURCE_ROOT; };
-		3DBE7F04C8484F049EAB807B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = core.c; path = src/core.c; sourceTree = SOURCE_ROOT; };
-		45A0682A8DA14EB08396A047 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shape.h; path = src/shape.h; sourceTree = SOURCE_ROOT; };
-		45F287E82F2F4792A2161ABE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = geometry.c; path = src/geometry.c; sourceTree = SOURCE_ROOT; };
-		598D866F9D6D4AAE9B002128 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = math_functions.c; path = src/math_functions.c; sourceTree = SOURCE_ROOT; };
-		5B45AAC0A1D44AC19EC8882C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = motor_joint.c; path = src/motor_joint.c; sourceTree = SOURCE_ROOT; };
-		5D5436E2F45A4676874CAD88 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = wheel_joint.c; path = src/wheel_joint.c; sourceTree = SOURCE_ROOT; };
-		68F18C620E3040DA8A0F2D48 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = body.h; path = src/body.h; sourceTree = SOURCE_ROOT; };
-		696E6FA7E3AE4AF0A565CEDB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mouse_joint.c; path = src/mouse_joint.c; sourceTree = SOURCE_ROOT; };
-		69B0F515D6A84530ADF1F65A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sensor.c; path = src/sensor.c; sourceTree = SOURCE_ROOT; };
-		6BA7370338DA472BB2647071 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = table.c; path = src/table.c; sourceTree = SOURCE_ROOT; };
-		6CEC9BCBECF647DF86FB474E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = broad_phase.c; path = src/broad_phase.c; sourceTree = SOURCE_ROOT; };
-		6E9EFB94AAED4220B6B04F43 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = aabb.c; path = src/aabb.c; sourceTree = SOURCE_ROOT; };
-		738E20D83B89489082278CB0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = manifold.c; path = src/manifold.c; sourceTree = SOURCE_ROOT; };
-		7949FB322FC1457098396549 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dynamic_tree.c; path = src/dynamic_tree.c; sourceTree = SOURCE_ROOT; };
-		7C4CB48760AB4326830421AE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constraint_graph.h; path = src/constraint_graph.h; sourceTree = SOURCE_ROOT; };
-		873CCBC844C14085AB608AB0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = revolute_joint.c; path = src/revolute_joint.c; sourceTree = SOURCE_ROOT; };
-		88F91AFB5DBD453B9ED3BC2C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aabb.h; path = src/aabb.h; sourceTree = SOURCE_ROOT; };
-		8B025C033D0E4CF49EB6EBBA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = broad_phase.h; path = src/broad_phase.h; sourceTree = SOURCE_ROOT; };
-		9BA33758DCA24C5DAFA6B614 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timer.c; path = src/timer.c; sourceTree = SOURCE_ROOT; };
-		9BECEEF2BB214B3FAF8A37BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = arena_allocator.h; path = src/arena_allocator.h; sourceTree = SOURCE_ROOT; };
-		9CEDA71A41BC427A9FE44D62 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = solver_set.c; path = src/solver_set.c; sourceTree = SOURCE_ROOT; };
-		9D3E845A45A24003A3CF4C35 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = world.h; path = src/world.h; sourceTree = SOURCE_ROOT; };
-		9E978F5125CD44A7AA9344F6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = id_pool.c; path = src/id_pool.c; sourceTree = SOURCE_ROOT; };
-		A42EE15991014BE1A602BEE4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = weld_joint.c; path = src/weld_joint.c; sourceTree = SOURCE_ROOT; };
-		AA19F32A090743C98D5BB372 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = types.c; path = src/types.c; sourceTree = SOURCE_ROOT; };
-		ADAA0F22E8A54DD8BBBD0F00 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = array.h; path = src/array.h; sourceTree = SOURCE_ROOT; };
-		AFFCE32231DA4067A8AD75A7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sensor.h; path = src/sensor.h; sourceTree = SOURCE_ROOT; };
-		B54AC8AADC4141329EFC5439 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = contact_solver.h; path = src/contact_solver.h; sourceTree = SOURCE_ROOT; };
-		B55ACDABACF14A63B90F9843 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/ctz.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ctz.h; path = src/ctz.h; sourceTree = SOURCE_ROOT; };
-		B65E5F6690ED4C688196A189 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = contact_solver.c; path = src/contact_solver.c; sourceTree = SOURCE_ROOT; };
-		B6EFAF9FBAF1438DB964D113 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = distance.c; path = src/distance.c; sourceTree = SOURCE_ROOT; };
-		BE733821DBAD47CEB673CA9F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base.h; path = include/box2d/base.h; sourceTree = SOURCE_ROOT; };
-		C2C551986F4F43C5AD576CBA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/collision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = collision.h; path = include/box2d/collision.h; sourceTree = SOURCE_ROOT; };
-		C3A5B944AA5B48F79BCFAD79 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = hull.c; path = src/hull.c; sourceTree = SOURCE_ROOT; };
-		C3B69D7E1F124977822BD314 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = solver.c; path = src/solver.c; sourceTree = SOURCE_ROOT; };
-		C56037A53339420D8F180666 /* box2d */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbox2dd.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAFF5DE100F849069987C588 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = contact.c; path = src/contact.c; sourceTree = SOURCE_ROOT; };
-		CC3E99BC87A24BE0B2876A7C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = world.c; path = src/world.c; sourceTree = SOURCE_ROOT; };
-		D362143208A440EAA76368C4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = island.c; path = src/island.c; sourceTree = SOURCE_ROOT; };
-		D5F7F3D8E5E74902B06CDA6E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/id.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = id.h; path = include/box2d/id.h; sourceTree = SOURCE_ROOT; };
-		D8433CE7D1EF46E4AA671CA0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = id_pool.h; path = src/id_pool.h; sourceTree = SOURCE_ROOT; };
-		D8560DC3E0354CAFB4BFA9C0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		DBDA4540EA9C4537A25B6AE9 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitset.c; path = src/bitset.c; sourceTree = SOURCE_ROOT; };
-		DF9AB74BE5A1456496F17A61 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/math_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = math_functions.h; path = include/box2d/math_functions.h; sourceTree = SOURCE_ROOT; };
-		E2AF56CA7A2E4729964F8030 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = island.h; path = src/island.h; sourceTree = SOURCE_ROOT; };
-		E39267EADCB84F9BA8FD068B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = table.h; path = src/table.h; sourceTree = SOURCE_ROOT; };
-		E5AB39C4583641BCBC84F3BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joint.c; path = src/joint.c; sourceTree = SOURCE_ROOT; };
-		E7181ADF336A46098BEA65BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E890125AD97C4D50A3464647 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = include/box2d/types.h; sourceTree = SOURCE_ROOT; };
-		EC4DE7344C3C43C285138362 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bitset.h; path = src/bitset.h; sourceTree = SOURCE_ROOT; };
-		EE3E2C6EDDA44905AA8E5168 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constants.h; path = src/constants.h; sourceTree = SOURCE_ROOT; };
-		F622CED00EC04B4B9528D9FD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/box2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = box2d.h; path = include/box2d/box2d.h; sourceTree = SOURCE_ROOT; };
-		F708060CB8004933A1E0CA6A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = constraint_graph.c; path = src/constraint_graph.c; sourceTree = SOURCE_ROOT; };
-		FE2CF7D3C463458D93F52877 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = shape.c; path = src/shape.c; sourceTree = SOURCE_ROOT; };
+		029F002D4B9C4634B873EC67 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = island.h; path = src/island.h; sourceTree = SOURCE_ROOT; };
+		04E06DFC3FD044C49A5264AB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = solver_set.c; path = src/solver_set.c; sourceTree = SOURCE_ROOT; };
+		083DA09EADF54E26A7E0E304 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bitset.c; path = src/bitset.c; sourceTree = SOURCE_ROOT; };
+		0C34E63FC1F440E094301766 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = src/core.h; sourceTree = SOURCE_ROOT; };
+		117B49440FB64B28AA815E30 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sensor.c; path = src/sensor.c; sourceTree = SOURCE_ROOT; };
+		1196E92CDE804CD6A4267B3C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solver.h; path = src/solver.h; sourceTree = SOURCE_ROOT; };
+		147DDB7F398A43858EFB7DEC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/id.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = id.h; path = include/box2d/id.h; sourceTree = SOURCE_ROOT; };
+		1677D2DAD82E404D9083EA42 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = base.h; path = include/box2d/base.h; sourceTree = SOURCE_ROOT; };
+		1758E71AB7EE4CD69D35EF16 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = island.c; path = src/island.c; sourceTree = SOURCE_ROOT; };
+		1D8CCE3BF6D64D129B6694BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constants.h; path = src/constants.h; sourceTree = SOURCE_ROOT; };
+		25AA3B9DCCDE43CA9D57E544 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = manifold.c; path = src/manifold.c; sourceTree = SOURCE_ROOT; };
+		2C56957018244107BD4CE473 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = joint.c; path = src/joint.c; sourceTree = SOURCE_ROOT; };
+		2FDF585FBEF041A195AD1B1A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = motor_joint.c; path = src/motor_joint.c; sourceTree = SOURCE_ROOT; };
+		3220FBCF28384ABAB79337FC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = prismatic_joint.c; path = src/prismatic_joint.c; sourceTree = SOURCE_ROOT; };
+		3625EB426F1F43068E05BBB8 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = arena_allocator.h; path = src/arena_allocator.h; sourceTree = SOURCE_ROOT; };
+		3E17CAE41FE64E7881435255 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = body.h; path = src/body.h; sourceTree = SOURCE_ROOT; };
+		41D1AF698A834EA9B960BF21 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = distance_joint.c; path = src/distance_joint.c; sourceTree = SOURCE_ROOT; };
+		42945549A9AF41A4B3627E07 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4D6D400D12274123BFC4F901 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = array.c; path = src/array.c; sourceTree = SOURCE_ROOT; };
+		4DD15478621B448988B45F5B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = hull.c; path = src/hull.c; sourceTree = SOURCE_ROOT; };
+		4ECFF9392C0D4721AA9473BA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = constraint_graph.h; path = src/constraint_graph.h; sourceTree = SOURCE_ROOT; };
+		566FD0E0FCCE4874837BD515 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = revolute_joint.c; path = src/revolute_joint.c; sourceTree = SOURCE_ROOT; };
+		59838BB5617D4BB1B8B98C3C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = core.c; path = src/core.c; sourceTree = SOURCE_ROOT; };
+		606F09DC0EAD4CBCA22A42B1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = body.c; path = src/body.c; sourceTree = SOURCE_ROOT; };
+		6128315F7C7E4453BFA5B0CB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		612B136A593648039ABB4123 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/collision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = collision.h; path = include/box2d/collision.h; sourceTree = SOURCE_ROOT; };
+		61F75C450A84419E8582B2A7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = math_functions.c; path = src/math_functions.c; sourceTree = SOURCE_ROOT; };
+		67BC976BB11C48AA8F077FDC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = world.c; path = src/world.c; sourceTree = SOURCE_ROOT; };
+		689DE80E4A294D3F89E07BCB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = contact_solver.h; path = src/contact_solver.h; sourceTree = SOURCE_ROOT; };
+		6B60A42700E2467889533992 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = weld_joint.c; path = src/weld_joint.c; sourceTree = SOURCE_ROOT; };
+		6F6534B609BB4BBD8F5BDB56 /* box2d */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbox2dd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BED9B09116457D8E521D79 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = table.h; path = src/table.h; sourceTree = SOURCE_ROOT; };
+		78C6A8954EA14B3E8F3939BE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = types.h; path = include/box2d/types.h; sourceTree = SOURCE_ROOT; };
+		7D441215374E400C94FA518A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = broad_phase.c; path = src/broad_phase.c; sourceTree = SOURCE_ROOT; };
+		840E86C6912B44B7AB474F63 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/ctz.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ctz.h; path = src/ctz.h; sourceTree = SOURCE_ROOT; };
+		84BC4987D95C4407A3266A03 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = solver_set.h; path = src/solver_set.h; sourceTree = SOURCE_ROOT; };
+		85372292CE0D49858D24DE28 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bitset.h; path = src/bitset.h; sourceTree = SOURCE_ROOT; };
+		88084B8D1F464FC78195C981 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = types.c; path = src/types.c; sourceTree = SOURCE_ROOT; };
+		8A31976C73E04131884FDA3B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mouse_joint.c; path = src/mouse_joint.c; sourceTree = SOURCE_ROOT; };
+		8A6CAED7CECC4FDCBBCF32F7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = id_pool.c; path = src/id_pool.c; sourceTree = SOURCE_ROOT; };
+		8B80047D6651461AA4901E65 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = distance.c; path = src/distance.c; sourceTree = SOURCE_ROOT; };
+		8E191831B9CC49E5BE7DBC3E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = id_pool.h; path = src/id_pool.h; sourceTree = SOURCE_ROOT; };
+		8EAA71A735904B34AA93F084 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = aabb.c; path = src/aabb.c; sourceTree = SOURCE_ROOT; };
+		91B604C7954340909FF98FD6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = wheel_joint.c; path = src/wheel_joint.c; sourceTree = SOURCE_ROOT; };
+		93BC4E182D4549739B22D35B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = table.c; path = src/table.c; sourceTree = SOURCE_ROOT; };
+		96E05E9F37C346C99F986EFC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = aabb.h; path = src/aabb.h; sourceTree = SOURCE_ROOT; };
+		9945C4314CD04A62839F6467 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sensor.h; path = src/sensor.h; sourceTree = SOURCE_ROOT; };
+		9EC13BB131094C44A3313599 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = contact.c; path = src/contact.c; sourceTree = SOURCE_ROOT; };
+		9EC16D7705094DBD9EE908DD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = dynamic_tree.c; path = src/dynamic_tree.c; sourceTree = SOURCE_ROOT; };
+		AB04E0B048EF457F85C25BD4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = joint.h; path = src/joint.h; sourceTree = SOURCE_ROOT; };
+		AE2039EDC62745CFB6C31E74 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = array.h; path = src/array.h; sourceTree = SOURCE_ROOT; };
+		B0200297EAC544D6A276E44F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/box2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = box2d.h; path = include/box2d/box2d.h; sourceTree = SOURCE_ROOT; };
+		B0ACD5550E05431AB867701E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = shape.c; path = src/shape.c; sourceTree = SOURCE_ROOT; };
+		B6892BE7383749BEA7AE8110 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist"; sourceTree = "<absolute>"; };
+		B9C8DB7A58EC47A5A0B5E89F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = solver.c; path = src/solver.c; sourceTree = SOURCE_ROOT; };
+		C1386DBA7EF94BA9A600B942 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/atomic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = atomic.h; path = src/atomic.h; sourceTree = SOURCE_ROOT; };
+		D4F35BF4B86F455F9B38C848 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shape.h; path = src/shape.h; sourceTree = SOURCE_ROOT; };
+		E1B7FCEB79204F7389B709A1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = geometry.c; path = src/geometry.c; sourceTree = SOURCE_ROOT; };
+		E49268D7664341349C1FC6CD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = constraint_graph.c; path = src/constraint_graph.c; sourceTree = SOURCE_ROOT; };
+		E5BC81F127494D0EAF316B0C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = broad_phase.h; path = src/broad_phase.h; sourceTree = SOURCE_ROOT; };
+		E991EF2A33B1488E96E0069D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/math_functions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = math_functions.h; path = include/box2d/math_functions.h; sourceTree = SOURCE_ROOT; };
+		ED2BFA0276B4404CA859C74C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = timer.c; path = src/timer.c; sourceTree = SOURCE_ROOT; };
+		EEB1E9F1F90B43AD9BB39C17 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = world.h; path = src/world.h; sourceTree = SOURCE_ROOT; };
+		F5DFB062E05440398A4F637A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = contact_solver.c; path = src/contact_solver.c; sourceTree = SOURCE_ROOT; };
+		F8D1CC0558364099827E4583 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = contact.h; path = src/contact.h; sourceTree = SOURCE_ROOT; };
+		FBD5D27CD5F4497D839C716E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = arena_allocator.c; path = src/arena_allocator.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E8C87AA848847F0A24DC70B /* Frameworks */ = {
+		FA191F1D7CED493A96F0F9CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,155 +266,156 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08CD176C73E441E7A62B02F7 /* box2d */ = {
+		1B4E2F1CEE114A65BB850239 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				0CC6D496D54E4006B4905D2B /* src */,
-				50E7F60F153C4FC49DD51C14 /* include */,
-				A66A5BFCA1A74DA9A091AF8F /* Resources */,
-				D8560DC3E0354CAFB4BFA9C0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/CMakeLists.txt */,
+				59D59959E13240529D8CEDE2 /* CMake Rules */,
+				42945549A9AF41A4B3627E07 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/CMakeLists.txt */,
 			);
-			name = box2d;
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		0CC6D496D54E4006B4905D2B /* src */ = {
+		3277EEC87F7145B686029CCB /* include */ = {
 			isa = PBXGroup;
 			children = (
-				6E9EFB94AAED4220B6B04F43 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */,
-				88F91AFB5DBD453B9ED3BC2C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.h */,
-				190D24C928CB45E58E1E4EA2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */,
-				9BECEEF2BB214B3FAF8A37BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.h */,
-				2AD79199057E429A97DDAF14 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */,
-				ADAA0F22E8A54DD8BBBD0F00 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.h */,
-				DBDA4540EA9C4537A25B6AE9 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */,
-				EC4DE7344C3C43C285138362 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.h */,
-				28FAE840053F476C8FA66097 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */,
-				68F18C620E3040DA8A0F2D48 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.h */,
-				6CEC9BCBECF647DF86FB474E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */,
-				8B025C033D0E4CF49EB6EBBA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.h */,
-				EE3E2C6EDDA44905AA8E5168 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constants.h */,
-				F708060CB8004933A1E0CA6A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */,
-				7C4CB48760AB4326830421AE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.h */,
-				CAFF5DE100F849069987C588 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */,
-				2312CBDE3BDF4D8A9137C8EA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.h */,
-				B65E5F6690ED4C688196A189 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */,
-				B54AC8AADC4141329EFC5439 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.h */,
-				3DBE7F04C8484F049EAB807B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */,
-				0F9A26B35C884A56B3BA124C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.h */,
-				B55ACDABACF14A63B90F9843 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/ctz.h */,
-				B6EFAF9FBAF1438DB964D113 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */,
-				310C006834AB4A5A8CD9FA86 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */,
-				7949FB322FC1457098396549 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */,
-				45F287E82F2F4792A2161ABE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */,
-				C3A5B944AA5B48F79BCFAD79 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */,
-				9E978F5125CD44A7AA9344F6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */,
-				D8433CE7D1EF46E4AA671CA0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.h */,
-				D362143208A440EAA76368C4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */,
-				E2AF56CA7A2E4729964F8030 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.h */,
-				E5AB39C4583641BCBC84F3BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */,
-				3ACD9F9588A04F1CBAD64931 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.h */,
-				738E20D83B89489082278CB0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */,
-				598D866F9D6D4AAE9B002128 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */,
-				5B45AAC0A1D44AC19EC8882C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */,
-				696E6FA7E3AE4AF0A565CEDB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */,
-				0C30CF67C69649F7AFE3FA01 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */,
-				873CCBC844C14085AB608AB0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */,
-				69B0F515D6A84530ADF1F65A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */,
-				AFFCE32231DA4067A8AD75A7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.h */,
-				FE2CF7D3C463458D93F52877 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */,
-				45A0682A8DA14EB08396A047 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.h */,
-				C3B69D7E1F124977822BD314 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */,
-				08105313DD5249DCBEF65DDB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.h */,
-				9CEDA71A41BC427A9FE44D62 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */,
-				143A677AE0134F5DBFB2E362 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.h */,
-				6BA7370338DA472BB2647071 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */,
-				E39267EADCB84F9BA8FD068B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.h */,
-				9BA33758DCA24C5DAFA6B614 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */,
-				AA19F32A090743C98D5BB372 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */,
-				A42EE15991014BE1A602BEE4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */,
-				5D5436E2F45A4676874CAD88 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */,
-				CC3E99BC87A24BE0B2876A7C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */,
-				9D3E845A45A24003A3CF4C35 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.h */,
+				94956E1114BD4D19B9F33095 /* box2d */,
 			);
-			name = src;
+			name = include;
 			sourceTree = "<group>";
 		};
-		0E51F0C81704494B8670FDB2 = {
+		4AC7BA39AE2549C8A443AAD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CEE231E9B3C4E75A618A589 /* ALL_BUILD */,
-				08CD176C73E441E7A62B02F7 /* box2d */,
-				2CDB5761BCEA4D64A11524D9 /* Products */,
-				8947DFD5DB8047EE90DECDAD /* Frameworks */,
-				D5E7E882874F4D38B7408C17 /* Resources */,
+				6F6534B609BB4BBD8F5BDB56 /* box2d */,
 			);
+			name = Products;
 			sourceTree = "<group>";
 		};
-		2B76D2FC6D2E49A5BDC1368D /* CMake Rules */ = {
+		59D59959E13240529D8CEDE2 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		2CDB5761BCEA4D64A11524D9 /* Products */ = {
+		6C28D7069D3B47429601FE90 /* box2d */ = {
 			isa = PBXGroup;
 			children = (
-				C56037A53339420D8F180666 /* box2d */,
+				73C3D1D9B3AD4494AB42C8F8 /* src */,
+				3277EEC87F7145B686029CCB /* include */,
+				84DB5AE66B7046119E089F34 /* Resources */,
+				6128315F7C7E4453BFA5B0CB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/CMakeLists.txt */,
 			);
-			name = Products;
+			name = box2d;
 			sourceTree = "<group>";
 		};
-		2CEE231E9B3C4E75A618A589 /* ALL_BUILD */ = {
+		73C3D1D9B3AD4494AB42C8F8 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				2B76D2FC6D2E49A5BDC1368D /* CMake Rules */,
-				E7181ADF336A46098BEA65BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/CMakeLists.txt */,
+				8EAA71A735904B34AA93F084 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */,
+				96E05E9F37C346C99F986EFC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.h */,
+				FBD5D27CD5F4497D839C716E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */,
+				3625EB426F1F43068E05BBB8 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.h */,
+				4D6D400D12274123BFC4F901 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */,
+				AE2039EDC62745CFB6C31E74 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.h */,
+				C1386DBA7EF94BA9A600B942 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/atomic.h */,
+				083DA09EADF54E26A7E0E304 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */,
+				85372292CE0D49858D24DE28 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.h */,
+				606F09DC0EAD4CBCA22A42B1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */,
+				3E17CAE41FE64E7881435255 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.h */,
+				7D441215374E400C94FA518A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */,
+				E5BC81F127494D0EAF316B0C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.h */,
+				1D8CCE3BF6D64D129B6694BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constants.h */,
+				E49268D7664341349C1FC6CD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */,
+				4ECFF9392C0D4721AA9473BA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.h */,
+				9EC13BB131094C44A3313599 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */,
+				F8D1CC0558364099827E4583 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.h */,
+				F5DFB062E05440398A4F637A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */,
+				689DE80E4A294D3F89E07BCB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.h */,
+				59838BB5617D4BB1B8B98C3C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */,
+				0C34E63FC1F440E094301766 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.h */,
+				840E86C6912B44B7AB474F63 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/ctz.h */,
+				8B80047D6651461AA4901E65 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */,
+				41D1AF698A834EA9B960BF21 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */,
+				9EC16D7705094DBD9EE908DD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */,
+				E1B7FCEB79204F7389B709A1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */,
+				4DD15478621B448988B45F5B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */,
+				8A6CAED7CECC4FDCBBCF32F7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */,
+				8E191831B9CC49E5BE7DBC3E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.h */,
+				1758E71AB7EE4CD69D35EF16 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */,
+				029F002D4B9C4634B873EC67 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.h */,
+				2C56957018244107BD4CE473 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */,
+				AB04E0B048EF457F85C25BD4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.h */,
+				25AA3B9DCCDE43CA9D57E544 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */,
+				61F75C450A84419E8582B2A7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */,
+				2FDF585FBEF041A195AD1B1A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */,
+				8A31976C73E04131884FDA3B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */,
+				3220FBCF28384ABAB79337FC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */,
+				566FD0E0FCCE4874837BD515 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */,
+				117B49440FB64B28AA815E30 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */,
+				9945C4314CD04A62839F6467 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.h */,
+				B0ACD5550E05431AB867701E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */,
+				D4F35BF4B86F455F9B38C848 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.h */,
+				B9C8DB7A58EC47A5A0B5E89F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */,
+				1196E92CDE804CD6A4267B3C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.h */,
+				04E06DFC3FD044C49A5264AB /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */,
+				84BC4987D95C4407A3266A03 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.h */,
+				93BC4E182D4549739B22D35B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */,
+				77BED9B09116457D8E521D79 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.h */,
+				ED2BFA0276B4404CA859C74C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */,
+				88084B8D1F464FC78195C981 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */,
+				6B60A42700E2467889533992 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */,
+				91B604C7954340909FF98FD6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */,
+				67BC976BB11C48AA8F077FDC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */,
+				EEB1E9F1F90B43AD9BB39C17 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.h */,
 			);
-			name = ALL_BUILD;
+			name = src;
 			sourceTree = "<group>";
 		};
-		50E7F60F153C4FC49DD51C14 /* include */ = {
+		84DB5AE66B7046119E089F34 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8AFB011112744E92A2AB1AA9 /* box2d */,
+				B6892BE7383749BEA7AE8110 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist */,
 			);
-			name = include;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		8947DFD5DB8047EE90DECDAD /* Frameworks */ = {
+		94956E1114BD4D19B9F33095 /* box2d */ = {
+			isa = PBXGroup;
+			children = (
+				1677D2DAD82E404D9083EA42 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/base.h */,
+				B0200297EAC544D6A276E44F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/box2d.h */,
+				612B136A593648039ABB4123 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/collision.h */,
+				147DDB7F398A43858EFB7DEC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/id.h */,
+				E991EF2A33B1488E96E0069D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/math_functions.h */,
+				78C6A8954EA14B3E8F3939BE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/types.h */,
+			);
+			name = box2d;
+			sourceTree = "<group>";
+		};
+		D679F447744B43C6B06CECCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E55C7307B6FE4AC9A550D7DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8AFB011112744E92A2AB1AA9 /* box2d */ = {
+		F8548C197CA1451CB1D6DF85 = {
 			isa = PBXGroup;
 			children = (
-				BE733821DBAD47CEB673CA9F /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/base.h */,
-				F622CED00EC04B4B9528D9FD /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/box2d.h */,
-				C2C551986F4F43C5AD576CBA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/collision.h */,
-				D5F7F3D8E5E74902B06CDA6E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/id.h */,
-				DF9AB74BE5A1456496F17A61 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/math_functions.h */,
-				E890125AD97C4D50A3464647 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/include/box2d/types.h */,
+				1B4E2F1CEE114A65BB850239 /* ALL_BUILD */,
+				6C28D7069D3B47429601FE90 /* box2d */,
+				4AC7BA39AE2549C8A443AAD8 /* Products */,
+				E55C7307B6FE4AC9A550D7DD /* Frameworks */,
+				D679F447744B43C6B06CECCC /* Resources */,
 			);
-			name = box2d;
-			sourceTree = "<group>";
-		};
-		A66A5BFCA1A74DA9A091AF8F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				16E515615B454EE4AE71F880 /* /Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/CMakeFiles/box2d.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		D5E7E882874F4D38B7408C17 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,10 +423,10 @@
 /* Begin PBXNativeTarget section */
 		512C4E0C47BF2A0B69B28885 /* box2d */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EEC72D2A6AB49EDA0EE34E6 /* Build configuration list for PBXNativeTarget "box2d" */;
+			buildConfigurationList = 3EF953CE987247C48ADF29DA /* Build configuration list for PBXNativeTarget "box2d" */;
 			buildPhases = (
-				52BC9697EF0F4E02B379EA83 /* Sources */,
-				0E8C87AA848847F0A24DC70B /* Frameworks */,
+				361FC98002154A59BD9D19E6 /* Sources */,
+				FA191F1D7CED493A96F0F9CB /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -431,30 +434,30 @@
 			);
 			name = box2d;
 			productName = box2d;
-			productReference = C56037A53339420D8F180666 /* box2d */;
+			productReference = 6F6534B609BB4BBD8F5BDB56 /* box2d */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D603E4E24E484901AC2AEAAD /* Project object */ = {
+		74585EF1641F40E6BB27E7D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1620;
 			};
-			buildConfigurationList = D7877F1BFA214422B69F1D58 /* Build configuration list for PBXProject "box2d" */;
+			buildConfigurationList = 4E3D3FFF221044398D698D9A /* Build configuration list for PBXProject "box2d" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				FB114AAAA5F346CDA7D3993A /* Debug */,
-				B5CB444C609E41E69C222CE1 /* Release */,
-				B26FECFBFEB34547809D6F02 /* MinSizeRel */,
-				4784A4FC3C6841E88D8F7EB4 /* RelWithDebInfo */,
+				137B8038F90845F88C82C77A /* Debug */,
+				937EA77EA46F45529005CE55 /* Release */,
+				150908FA4CA4442985609A4E /* MinSizeRel */,
+				EB8DDAB116B449F185021FD0 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 0E51F0C81704494B8670FDB2;
+			mainGroup = F8548C197CA1451CB1D6DF85;
 			projectDirPath = "/Users/joakimwennergren/Entropy-Engine/external/box2d";
 			projectRoot = "";
 			targets = (
@@ -659,74 +662,86 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52BC9697EF0F4E02B379EA83 /* Sources */ = {
+		361FC98002154A59BD9D19E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45FA37C7F92F4E6DA64C3CC7 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */,
-				9D82F2BE00474699BC414C65 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */,
-				18562BD3C88146A19693F605 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */,
-				CF366D1B33E64E66A1D59DC2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */,
-				9102DA9CF0684D658469E869 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */,
-				870075C2847D489CBDFDBE84 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */,
-				6265BDA7FCAD4461B4878E53 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */,
-				1494A382B5AF4BB2AA6D78E3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */,
-				E6F8CDE50384420888CAE7B9 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */,
-				8A26A570E23742A084B143B2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */,
-				4E2AC9D0E0FA4A5AB6E945F1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */,
-				5637A1B3E86B4CA39D4544E5 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */,
-				CDDF1391C5424AFB848C5DC2 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */,
-				D1866DA06EF74FCAB4CD90CA /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */,
-				D0948A56DBD247F3ADD3E34B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */,
-				802CC49E4BA5434497FCCD7D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */,
-				CB7BBD9109A747C395082B4C /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */,
-				D179813B5A60483E844D7507 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */,
-				975DE1E634224CBF932D456E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */,
-				32BD0275F2B14E7E9F82E0B0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */,
-				9851A02E904643E6939AB4BF /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */,
-				2B4AB29C8400410196B06230 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */,
-				6CDF132FAC904727BDEB4BB3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */,
-				680CE6C68D764B499B389E1B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */,
-				2B689B33EB4B489EB660AC99 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */,
-				18623CD29B2D481C83C196C8 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */,
-				DEDD0CBDF78A40FF9844B69A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */,
-				28BACBCEFF3E443CA18EE49D /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */,
-				E3957FD5CF024D7D82ADCE04 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */,
-				85F62B474FC44DFB8BF81F8B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */,
-				D60063838AC6478F89B5F081 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */,
-				148E9D6BB81E47E5BBE71310 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */,
-				18F09A9D06BF4496ABC4CCC4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */,
-				58914528DBDD4398B5E81EB6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */,
+				A804E87A67C7417FB5C6BB04 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/aabb.c */,
+				DA2E8F09997C4E6CB6F3A9EC /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/arena_allocator.c */,
+				D2B3F84D6B1C40AC974BD3E0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/array.c */,
+				2BD28B997EC54EDF9A4612C0 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/bitset.c */,
+				D133CFFA1D324D7C86AA0528 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/body.c */,
+				0712D3CADB834344ABE7F1B1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/broad_phase.c */,
+				545F574AE4DA458A99025C09 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/constraint_graph.c */,
+				96696B20BD394EBEA6A3DB2A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact.c */,
+				F4023D6927F4468D979C144E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/contact_solver.c */,
+				3BD71AFFC2B94A6C86024605 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/core.c */,
+				12259CC2ADEA4F378B17892B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance.c */,
+				4B6D15A0436543BEB94FDA36 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/distance_joint.c */,
+				C483BD7EA2D04D08B7BAC03A /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/dynamic_tree.c */,
+				F69315A676CB435C9C3C578E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/geometry.c */,
+				CB88BFEA5D0249739D4127BE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/hull.c */,
+				B3DBCAA056AD42E1AC466BF4 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/id_pool.c */,
+				3C94363442F846DAB64C47F8 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/island.c */,
+				8EA53540956249329785C869 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/joint.c */,
+				962FD6DECE024768A87CF1AE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/manifold.c */,
+				C6CDDF6494BC4095ACA96B34 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/math_functions.c */,
+				413142CDAEF6479C9A97F092 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/motor_joint.c */,
+				F5B58E7276914B4BA24AB6BE /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/mouse_joint.c */,
+				D7B720B61E7148279D18F7B6 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/prismatic_joint.c */,
+				009A2BDADFB24985B2B15482 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/revolute_joint.c */,
+				28302297066C4C39875D5BD3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/sensor.c */,
+				E8448E3C002B4CFD802C9C70 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/shape.c */,
+				8203A091121748A59831D618 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver.c */,
+				4341D31A4CFF4D4F8AFC2327 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/solver_set.c */,
+				CB36DA88FB91436A833B3597 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/table.c */,
+				352CF08987804E1FADCD5DE1 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/timer.c */,
+				C08E8CE3C0E444D998F0E44B /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/types.c */,
+				DC64D2F5D0B648EABE5F685E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/weld_joint.c */,
+				CAC19350C9574DCCA7D53C4E /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/wheel_joint.c */,
+				A409C595F059441FA83615F3 /* /Users/joakimwennergren/Entropy-Engine/external/box2d/src/world.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		25CA886041A743579D060BE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A32A1A2A9C1E0A139C97B3E3 /* ALL_BUILD */;
-			targetProxy = A2FB34D0039446C5A8E228AA /* PBXContainerItemProxy */;
-		};
-		6E1ABA5A60854EABAB093B7D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2286C32A1A9881457B33F481 /* ZERO_CHECK */;
-			targetProxy = B082CC763A23434B9766D047 /* PBXContainerItemProxy */;
-		};
-		F4FC40C7AFB44EBCB0836568 /* PBXTargetDependency */ = {
+		78A6812CABAA402F9F1FCEB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 512C4E0C47BF2A0B69B28885 /* box2d */;
-			targetProxy = 7BA2E7761F5749EFBCAA90FE /* PBXContainerItemProxy */;
+			targetProxy = 1698414031AD47EB8E2263DE /* PBXContainerItemProxy */;
 		};
-		FA479635E796407CA5079BBA /* PBXTargetDependency */ = {
+		C324A1BB1AF2448290A2B490 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A32A1A2A9C1E0A139C97B3E3 /* ALL_BUILD */;
-			targetProxy = FC5ACD3BBC3C4146BE875854 /* PBXContainerItemProxy */;
+			targetProxy = C1E3A9A80CBB47A09898367A /* PBXContainerItemProxy */;
+		};
+		D3F258FF738042CEA46A4C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2286C32A1A9881457B33F481 /* ZERO_CHECK */;
+			targetProxy = B99FD915F40644AC958AAA07 /* PBXContainerItemProxy */;
+		};
+		DAFCCE25F3E04CCC911E117B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32A1A2A9C1E0A139C97B3E3 /* ALL_BUILD */;
+			targetProxy = 1675830F876C4CF3A7A9F747 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1909B23EAFC44597AA9AE55B /* Release */ = {
+		26045D4103AD469492DA825F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D42AC47D0844359AFBDAECA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -746,27 +761,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		1EC74EFA7F7742379BC1412C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		2559DE5F2B8E48AEBDD92EC3 /* Release */ = {
+		34498223C3A948FCB0B39F6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -786,36 +781,27 @@ exit 0";
 			};
 			name = Release;
 		};
-		2BB2446931F641C8B9780B97 /* MinSizeRel */ = {
+		40ACE1636FEC4EE98A189A6A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (arm64,x86_64);
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOX2D_ENABLE_SIMD,"'HAVE_FCNTL_H=1'","$(inherited)");
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/box2d/src/../include","\"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src\"","/Users/joakimwennergren/Entropy-Engine/external/box2d/src","$(inherited)");
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu17' -fvisibility=hidden '-ffp-contract=off' -Wmissing-prototypes -Werror ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = box2d;
+				PRODUCT_NAME = package;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build/box2d.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		32EE2971C6574FE49259F0C9 /* RelWithDebInfo */ = {
+		41107851A647495787A68186 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -835,40 +821,50 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		338F840C06474F64BF1EFA9E /* Release */ = {
+		43C1A1E8FD8C41E4A4C1E25A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (arm64,x86_64);
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/Release${EFFECTIVE_PLATFORM_NAME}";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOX2D_ENABLE_SIMD,"'HAVE_FCNTL_H=1'","$(inherited)");
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/box2d/src/../include","\"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src\"","/Users/joakimwennergren/Entropy-Engine/external/box2d/src","$(inherited)");
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu17' -fvisibility=hidden '-ffp-contract=off' -Wmissing-prototypes -Werror ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = box2d;
+				PRODUCT_NAME = install;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build/box2d.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		3BEC437C488A45C3BF0AACBB /* RelWithDebInfo */ = {
+		43FA15AA6A1A4EFDBD7AE72D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		44BF0ABCE19447FD89AE4487 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/RelWithDebInfo${EFFECTIVE_PLATFORM_NAME}";
 				EXECUTABLE_PREFIX = lib;
@@ -881,7 +877,6 @@ exit 0";
 				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/box2d/src/../include","\"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src\"","/Users/joakimwennergren/Entropy-Engine/external/box2d/src","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu17' -fvisibility=hidden '-ffp-contract=off' -Wmissing-prototypes -Werror ","$(inherited)");
 				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
@@ -893,11 +888,299 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		410F2A15039B498D8D37A6C5 /* Debug */ = {
+		4F400A40E85E479A89E93F54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (arm64,x86_64);
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		52FCC956878344C2AA923C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/Release${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOX2D_ENABLE_SIMD,"'HAVE_FCNTL_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/box2d/src/../include","\"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src\"","/Users/joakimwennergren/Entropy-Engine/external/box2d/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu17' -fvisibility=hidden '-ffp-contract=off' -Wmissing-prototypes -Werror ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = box2d;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build/box2d.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5DA93C959BDF493DA14B5275 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		60814A62DB694BEEAE1718F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7B640BB6AA7C451CB48E82DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = RelWithDebInfo;
+		};
+		7BD5F3762DE7494EAC09523F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C52B13FA9DD43068F1EF6FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		82E0C9C0DEC3424C9A281381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A165946107B84EC0A560C91B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A194A93109F943B4A279CBBC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/MinSizeRel${EFFECTIVE_PLATFORM_NAME}";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BOX2D_ENABLE_SIMD,"'HAVE_FCNTL_H=1'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/box2d/src/../include","\"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src\"","/Users/joakimwennergren/Entropy-Engine/external/box2d/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu17' -fvisibility=hidden '-ffp-contract=off' -Wmissing-prototypes -Werror ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = box2d;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build/box2d.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CF292DF7AB8043AA8BC5E984 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = MinSizeRel;
+		};
+		D83CF330F04E4CB2B09DF025 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DF834855EFEB44E085F54126 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DFFC4661C9CF40FFBD3CFD7B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EC21458C17194EEA892C7716 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ED777BC5BFD944BFB144F886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src/Debug${EFFECTIVE_PLATFORM_NAME}";
 				EXECUTABLE_PREFIX = lib;
@@ -910,7 +1193,6 @@ exit 0";
 				HEADER_SEARCH_PATHS = ("/Users/joakimwennergren/Entropy-Engine/external/box2d/src/../include","\"/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/Entropy/external/box2d/src\"","/Users/joakimwennergren/Entropy-Engine/external/box2d/src","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = ("   '-std=gnu17' -fvisibility=hidden '-ffp-contract=off' -Wmissing-prototypes -Werror ","$(inherited)");
 				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
@@ -922,403 +1204,76 @@ exit 0";
 			};
 			name = Debug;
 		};
-		4F42EC8B7C26428284ABE48E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		61F6DE20642C44A9A4B00CC3 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		656EBADC4C6748A7B19D0A60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		724E415219AA45B2BE51443B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		80A2E88C24744555B9E99F25 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		82AE1546338240B898B61092 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "arm64 x86_64";
-				"ARCHS[sdk=iphoneos*]" = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
-				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-			};
-			name = Debug;
-		};
-		A91F3524D6C4496C9FF238F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		AC899EAF93B64B3380DF1562 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "arm64 x86_64";
-				"ARCHS[sdk=iphoneos*]" = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
-				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-			};
-			name = RelWithDebInfo;
-		};
-		C2B89FE6CB4C4B5FAC2B6317 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		CFBECE1E2BD048368F35E02D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		EC0BABF7CFFF4772A7BF4D0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "arm64 x86_64";
-				"ARCHS[sdk=iphoneos*]" = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
-				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-			};
-			name = Release;
-		};
-		EC971F3AAC024B9799A1E381 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "arm64 x86_64";
-				"ARCHS[sdk=iphoneos*]" = arm64;
-				"ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				ENABLE_BITCODE = NO;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/joakimwennergren/Svampjakt 2/cmake-debug-ios/build";
-				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
-				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 arm64";
-			};
-			name = MinSizeRel;
-		};
-		FBBD1B8186F94766BE57AE3A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		FDAACE6E57144F208C35171D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		FF38D0CFA8B64A60AF4E51AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		FF958F6EE97D431AA2635164 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = package;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		340EC72575AE4E16B6701848 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		15083B49CFBD430C9546DE0F /* Build configuration list for PBXAggregateTarget "package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF38D0CFA8B64A60AF4E51AA /* Debug */,
-				A91F3524D6C4496C9FF238F5 /* Release */,
-				724E415219AA45B2BE51443B /* MinSizeRel */,
-				32EE2971C6574FE49259F0C9 /* RelWithDebInfo */,
+				60814A62DB694BEEAE1718F8 /* Debug */,
+				4F400A40E85E479A89E93F54 /* Release */,
+				40ACE1636FEC4EE98A189A6A /* MinSizeRel */,
+				DF834855EFEB44E085F54126 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		3B088044E5AF49A58F8EBDBE /* Build configuration list for PBXAggregateTarget "package" */ = {
+		38A3548BB4734ED8971FC928 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF958F6EE97D431AA2635164 /* Debug */,
-				656EBADC4C6748A7B19D0A60 /* Release */,
-				61F6DE20642C44A9A4B00CC3 /* MinSizeRel */,
-				80A2E88C24744555B9E99F25 /* RelWithDebInfo */,
+				A165946107B84EC0A560C91B /* Debug */,
+				34498223C3A948FCB0B39F6D /* Release */,
+				DFFC4661C9CF40FFBD3CFD7B /* MinSizeRel */,
+				D83CF330F04E4CB2B09DF025 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4EEC72D2A6AB49EDA0EE34E6 /* Build configuration list for PBXNativeTarget "box2d" */ = {
+		3EF953CE987247C48ADF29DA /* Build configuration list for PBXNativeTarget "box2d" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				410F2A15039B498D8D37A6C5 /* Debug */,
-				338F840C06474F64BF1EFA9E /* Release */,
-				2BB2446931F641C8B9780B97 /* MinSizeRel */,
-				3BEC437C488A45C3BF0AACBB /* RelWithDebInfo */,
+				ED777BC5BFD944BFB144F886 /* Debug */,
+				52FCC956878344C2AA923C39 /* Release */,
+				A194A93109F943B4A279CBBC /* MinSizeRel */,
+				44BF0ABCE19447FD89AE4487 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4FEF8FB169D9400C86006F24 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		4E3D3FFF221044398D698D9A /* Build configuration list for PBXProject "box2d" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EC74EFA7F7742379BC1412C /* Debug */,
-				2559DE5F2B8E48AEBDD92EC3 /* Release */,
-				CFBECE1E2BD048368F35E02D /* MinSizeRel */,
-				FBBD1B8186F94766BE57AE3A /* RelWithDebInfo */,
+				7BD5F3762DE7494EAC09523F /* Debug */,
+				26045D4103AD469492DA825F /* Release */,
+				CF292DF7AB8043AA8BC5E984 /* MinSizeRel */,
+				7B640BB6AA7C451CB48E82DC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CF0B93CF2C8C41C39A732A25 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		A6C065D9CAE946278AE02AC7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2B89FE6CB4C4B5FAC2B6317 /* Debug */,
-				1909B23EAFC44597AA9AE55B /* Release */,
-				4F42EC8B7C26428284ABE48E /* MinSizeRel */,
-				FDAACE6E57144F208C35171D /* RelWithDebInfo */,
+				43FA15AA6A1A4EFDBD7AE72D /* Debug */,
+				2D42AC47D0844359AFBDAECA /* Release */,
+				EC21458C17194EEA892C7716 /* MinSizeRel */,
+				7C52B13FA9DD43068F1EF6FE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D7877F1BFA214422B69F1D58 /* Build configuration list for PBXProject "box2d" */ = {
+		D016B51A7BA04453B17E8FAF /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82AE1546338240B898B61092 /* Debug */,
-				EC0BABF7CFFF4772A7BF4D0A /* Release */,
-				EC971F3AAC024B9799A1E381 /* MinSizeRel */,
-				AC899EAF93B64B3380DF1562 /* RelWithDebInfo */,
+				82E0C9C0DEC3424C9A281381 /* Debug */,
+				43C1A1E8FD8C41E4A4C1E25A /* Release */,
+				5DA93C959BDF493DA14B5275 /* MinSizeRel */,
+				41107851A647495787A68186 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D603E4E24E484901AC2AEAAD /* Project object */;
+	rootObject = 74585EF1641F40E6BB27E7D6 /* Project object */;
 }

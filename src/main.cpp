@@ -227,28 +227,22 @@ int main() {
 }
 
 #else
-struct Entropia final : Entropy::Entrypoints::Application {
-  /**
-   * Initializes the application by retrieving the Lua scripting service from
-   * the service locator and executing the main Lua script. This method
-   * overrides the OnInit function in the base class.
-   */
+
+#include <application/application.hpp>
+struct Entropia final : Entropy::EntryPoints::Application {
   void OnInit() override {
     const ServiceLocator *sl = ServiceLocator::GetInstance();
     const auto lua = sl->getService<ILua>();
-    lua->SetBasePath("../");
-    lua->Get()->script_file("../scripts/main.lua");
+    lua->SetBasePath("/Users/joakimwennergren/Svampjakt 2/scripts/game");
+    lua->SetBasePath("/Users/joakimwennergren/Svampjakt 2/scripts/levels");
+    lua->SetBasePath("/Users/joakimwennergren/Svampjakt 2/scripts/mushrooms");
+    lua->SetBasePath("/Users/joakimwennergren/Svampjakt 2/scripts/systems");
+    lua->SetBasePath("/Users/joakimwennergren/Svampjakt 2/scripts/text");
+    lua->SetBasePath("/Users/joakimwennergren/Svampjakt 2/scripts/ui");
+    lua->SetBasePath("/Users/joakimwennergren/Svampjakt 2");
+    lua->Get()->script_file(
+        "/Users/joakimwennergren/Svampjakt 2/scripts/main.lua");
   }
-
-  /**
-   * Handles the rendering of the application.
-   * This method overrides the OnRender function in the base class.
-   *
-   * @param screen_width
-   * @param screen_height
-   * @param deltaTime The time elapsed since the last frame, used for updating
-   * the rendering accordingly.
-   */
   void OnRender(int screen_width, int screen_height, float deltaTime) override {
   }
 };
@@ -258,5 +252,4 @@ int main() {
   game.Run();
   return EXIT_SUCCESS;
 }
-
 #endif
